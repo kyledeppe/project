@@ -1,0 +1,7 @@
+strategy,day1_available,day2_available
+Random,True,True
+Degree,True,True
+Weighted Degree,True,True
+Betweenness,True,True
+Community Bridges,True,True
+Within-Community Hubs,True,True

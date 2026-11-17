@@ -1,0 +1,74 @@
+
+STAT 636
+METHODS AND RESULTS
+
+1. RESEARCH DESIGN
+
+The research examined epidemic propagation across
+weighted social networks and evaluated alternative
+vaccination strategies.
+
+2. NETWORK MODELS
+
+Four network structures were investigated:
+
+- Empirical
+- Erdős-Rényi
+- Configuration
+- Degree-Corrected Stochastic Block Model
+
+3. EPIDEMIC SIMULATION
+
+An SIR framework was used to simulate epidemic spread.
+
+The outcomes included:
+
+- Final outbreak size
+- Final outbreak proportion
+- Peak infected individuals
+- Peak infection proportion
+- Number of generations
+
+4. VACCINATION STRATEGIES
+
+Five vaccination strategies were examined:
+
+- Random
+- Degree
+- Weighted Degree
+- Betweenness
+- Community Bridge
+
+Vaccination budgets were 5%, 10%, 15%, and 20%.
+
+5. VACCINATION TIMING
+
+Previous-Day and Same-Day selection timings were compared.
+
+6. NETWORK MODEL RESULTS
+
+Lowest mean final outbreak size:
+
+Empirical: 51.6609
+
+Highest mean final outbreak size:
+
+ER: 78.3576
+
+7. STATISTICAL ANALYSIS
+
+Friedman tests evaluated differences across paired
+network-model conditions.
+
+Paired Wilcoxon signed-rank tests evaluated empirical
+versus null-model comparisons.
+
+Holm adjustment was applied for multiple comparisons.
+
+Significant Friedman tests:
+69
+
+Significant Wilcoxon tests:
+156
+
+END OF METHODS AND RESULTS

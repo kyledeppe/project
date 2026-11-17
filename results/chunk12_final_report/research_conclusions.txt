@@ -1,0 +1,59 @@
+
+STAT 636
+FINAL RESEARCH CONCLUSIONS
+
+1. NETWORK STRUCTURE
+
+The empirical network produced the highest average
+final outbreak size, while the Configuration model
+produced the lowest.
+
+This suggests that preserving degree structure alone
+may not fully reproduce epidemic behavior observed
+in the empirical network.
+
+2. VACCINATION EFFECTIVENESS
+
+Vaccination effectiveness varied across network models,
+vaccination strategies, budgets, and selection timings.
+
+No single strategy should be considered universally
+optimal based on these results.
+
+3. VACCINATION TIMING
+
+Same-Day vaccination sometimes produced lower average
+final outbreak sizes, although exceptions were observed.
+
+4. STATISTICAL EVIDENCE
+
+Significant Friedman tests:
+69
+
+Significant paired Wilcoxon comparisons:
+156
+
+5. LIMITATIONS
+
+The conclusions are conditional on the simulated
+network structures and SIR assumptions.
+
+Future research should investigate:
+
+- Alternative infection and recovery probabilities.
+- Additional epidemic models.
+- Larger and more diverse network datasets.
+- Alternative community detection methods.
+- Robustness across additional random seeds.
+- Sensitivity to vaccination eligibility and seed selection.
+
+6. FINAL CONCLUSION
+
+Network topology and vaccination design both matter
+when evaluating epidemic interventions.
+
+The empirical network and its null models produced
+different epidemic outcomes, demonstrating the
+importance of network structure in epidemic modeling.
+
+END OF RESEARCH CONCLUSIONS

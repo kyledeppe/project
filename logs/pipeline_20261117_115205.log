@@ -1,0 +1,1690 @@
+
+[1/14] Running config.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+
+[2/14] Running data_loader.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+
+[3/14] Running network_analysis.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+
+====================================
+STAT 636 NETWORK ANALYSIS
+====================================
+
+================================
+STAT 636 DATA LOADING
+================================
+
+Metadata loaded successfully.
+Participants: 242
+Classrooms: 11
+
+Loaded day1.gexf
+Nodes: 236
+Edges: 5899
+
+Loaded day2.gexf
+Nodes: 238
+Edges: 5539
+
+Networks aligned.
+Shared participants: 242
+Day 1 isolates: 6
+Day 2 isolates: 4
+same_nodes: PASS
+same_node_order: PASS
+undirected_day1: PASS
+undirected_day2: PASS
+no_self_loops_day1: PASS
+no_self_loops_day2: PASS
+all_nodes_have_metadata: PASS
+
+Network files saved successfully.
+
+DATA LOADING COMPLETE
+Participants: 242
+Day 1 edges: 5899
+Day 2 edges: 5539
+
+Calculating Day 1 centrality...
+Calculating Day 2 centrality...
+
+NETWORK ANALYSIS COMPLETED
+
+Network summary:
+  day  nodes  edges  density  average_degree  degree_sd  maximum_degree  average_strength  strength_sd  maximum_strength  average_contact_duration  total_contact_duration  number_of_components  largest_component  isolated_nodes  average_clustering
+Day 1    242   5899 0.202291       48.752066  20.267825              98      10003.305785  5363.016335           25480.0                205.187320               1210400.0                     7                236               6            0.007659
+Day 2    242   5539 0.189945       45.776860  20.603141              88      10745.619835  6457.028194           29340.0                234.739123               1300220.0                     5                238               4            0.010374
+
+Classroom summary:
+  day  classroom_assortativity  within_duration  between_duration  within_edges  between_edges  within_proportion  between_proportion
+Day 1                 0.324229         873440.0          336960.0          2296           3603           0.721613            0.278387
+Day 2                 0.359349         947280.0          352940.0          2342           3197           0.728554            0.271446
+
+Results saved in: C:\Users\KyleD\PycharmProjects\stat_project\results
+
+[4/14] Running spectral_analysis.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+
+====================================
+STAT 636 SPECTRAL ANALYSIS
+====================================
+
+================================
+STAT 636 DATA LOADING
+================================
+
+Metadata loaded successfully.
+Participants: 242
+Classrooms: 11
+
+Loaded day1.gexf
+Nodes: 236
+Edges: 5899
+
+Loaded day2.gexf
+Nodes: 238
+Edges: 5539
+
+Networks aligned.
+Shared participants: 242
+Day 1 isolates: 6
+Day 2 isolates: 4
+same_nodes: PASS
+same_node_order: PASS
+undirected_day1: PASS
+undirected_day2: PASS
+no_self_loops_day1: PASS
+no_self_loops_day2: PASS
+all_nodes_have_metadata: PASS
+
+Network files saved successfully.
+
+DATA LOADING COMPLETE
+Participants: 242
+Day 1 edges: 5899
+Day 2 edges: 5539
+
+================================
+SPECTRAL ANALYSIS: Day 1
+================================
+
+SPECTRAL EMBEDDING DIAGNOSTICS
+Embedding dimensions: 3
+Number of participants: 242
+Retained eigenvalues: [15237.15924081 12687.6164118  11683.10983388]
+Zero-norm participants: 6
+Mean normalized row length: 0.9752066115702479
+
+Evaluating K = 5
+K-means ARI: 0.4626
+GMM ARI: 0.3723
+
+Evaluating K = 8
+K-means ARI: 0.5055
+GMM ARI: 0.5138
+
+Evaluating K = 10
+K-means ARI: 0.5894
+GMM ARI: 0.5932
+
+Evaluating K = 12
+K-means ARI: 0.5903
+GMM ARI: 0.5920
+
+ARI RESULTS
+ method  K      ARI
+K-means  5 0.462563
+    GMM  5 0.372328
+K-means  8 0.505526
+    GMM  8 0.513834
+K-means 10 0.589356
+    GMM 10 0.593233
+K-means 12 0.590294
+    GMM 12 0.592025
+
+PRIMARY COMMUNITY SIZES
+community
+0    18
+1    27
+2    24
+3    46
+4    24
+5    21
+6     6
+7    28
+8    31
+9    17
+dtype: int64
+
+COMMUNITY ANALYSIS COMPLETE
+
+================================
+SPECTRAL ANALYSIS: Day 2
+================================
+
+SPECTRAL EMBEDDING DIAGNOSTICS
+Embedding dimensions: 3
+Number of participants: 242
+Retained eigenvalues: [18318.82755998 15960.19597841 12192.8745571 ]
+Zero-norm participants: 4
+Mean normalized row length: 0.9834710743801653
+
+Evaluating K = 5
+K-means ARI: 0.2721
+GMM ARI: 0.2911
+
+Evaluating K = 8
+K-means ARI: 0.3184
+GMM ARI: 0.3305
+
+Evaluating K = 10
+K-means ARI: 0.3179
+GMM ARI: 0.4127
+
+Evaluating K = 12
+K-means ARI: 0.4096
+GMM ARI: 0.2859
+
+ARI RESULTS
+ method  K      ARI
+K-means  5 0.272133
+    GMM  5 0.291143
+K-means  8 0.318449
+    GMM  8 0.330460
+K-means 10 0.317852
+    GMM 10 0.412712
+K-means 12 0.409596
+    GMM 12 0.285887
+
+PRIMARY COMMUNITY SIZES
+community
+0    27
+1     5
+2    45
+3    15
+4     4
+5    12
+6     9
+7    13
+8    23
+9    89
+dtype: int64
+
+COMMUNITY ANALYSIS COMPLETE
+
+====================================
+SPECTRAL ANALYSIS COMPLETED
+====================================
+
+[5/14] Running vaccination.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+
+====================================
+STAT 636 VACCINATION ANALYSIS
+====================================
+
+================================
+STAT 636 DATA LOADING
+================================
+
+Metadata loaded successfully.
+Participants: 242
+Classrooms: 11
+
+Loaded day1.gexf
+Nodes: 236
+Edges: 5899
+
+Loaded day2.gexf
+Nodes: 238
+Edges: 5539
+
+Networks aligned.
+Shared participants: 242
+Day 1 isolates: 6
+Day 2 isolates: 4
+same_nodes: PASS
+same_node_order: PASS
+undirected_day1: PASS
+undirected_day2: PASS
+no_self_loops_day1: PASS
+no_self_loops_day2: PASS
+all_nodes_have_metadata: PASS
+
+Network files saved successfully.
+
+DATA LOADING COMPLETE
+Participants: 242
+Day 1 edges: 5899
+Day 2 edges: 5539
+
+Loading spectral community assignments...
+Community assignments successfully loaded.
+Day 1 communities: 10
+Day 2 communities: 10
+
+====================================
+VACCINATION ANALYSIS: Day 1
+====================================
+
+VACCINATION STRATEGIES
+['Random', 'Degree', 'Weighted Degree', 'Betweenness', 'Community Bridges', 'Within-Community Hubs']
+
+NUMBER OF PARTICIPANTS: 242
+
+VACCINATION BUDGETS
+5%: 13
+10%: 25
+15%: 37
+20%: 49
+
+VACCINATION ANALYSIS COMPLETED.
+
+====================================
+VACCINATION ANALYSIS: Day 2
+====================================
+
+VACCINATION STRATEGIES
+['Random', 'Degree', 'Weighted Degree', 'Betweenness', 'Community Bridges', 'Within-Community Hubs']
+
+NUMBER OF PARTICIPANTS: 242
+
+VACCINATION BUDGETS
+5%: 13
+10%: 25
+15%: 37
+20%: 49
+
+VACCINATION ANALYSIS COMPLETED.
+
+====================================
+VACCINATION ANALYSIS COMPLETED
+====================================
+
+Results saved to: C:\Users\KyleD\PycharmProjects\stat_project\results
+
+[6/14] Running sir_simulation.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+
+====================================
+STAT 636 SIR SIMULATION
+====================================
+
+================================
+STAT 636 DATA LOADING
+================================
+
+Metadata loaded successfully.
+Participants: 242
+Classrooms: 11
+
+Loaded day1.gexf
+Nodes: 236
+Edges: 5899
+
+Loaded day2.gexf
+Nodes: 238
+Edges: 5539
+
+Networks aligned.
+Shared participants: 242
+Day 1 isolates: 6
+Day 2 isolates: 4
+same_nodes: PASS
+same_node_order: PASS
+undirected_day1: PASS
+undirected_day2: PASS
+no_self_loops_day1: PASS
+no_self_loops_day2: PASS
+all_nodes_have_metadata: PASS
+
+Network files saved successfully.
+
+DATA LOADING COMPLETE
+Participants: 242
+Day 1 edges: 5899
+Day 2 edges: 5539
+
+Calculating Day 1 vaccination scores...
+Calculating Day 2 vaccination scores...
+
+Total simulation runs: 96000
+
+Starting epidemic simulations...
+
+Selection information: Day 1
+Vaccination budget: 5%
+Vaccination budget: 10%
+Vaccination budget: 15%
+Vaccination budget: 20%
+
+Selection information: Day 2
+Vaccination budget: 5%
+Vaccination budget: 10%
+Vaccination budget: 15%
+Vaccination budget: 20%
+
+Individual simulation results saved.
+Output: C:\Users\KyleD\PycharmProjects\stat_project\results\tables\sir_simulation_results.csv
+
+Simulation summary saved.
+Output: C:\Users\KyleD\PycharmProjects\stat_project\results\tables\sir_simulation_summary.csv
+
+====================================
+SIR SIMULATION COMPLETED
+====================================
+
+SUMMARY PREVIEW:
+selection_day outbreak_day          strategy  budget    beta  infectious_period  n_simulations  mean_final_outbreak_size  sd_final_outbreak_size  ci_lower_final_outbreak_size  ci_upper_final_outbreak_size  mean_attack_rate  sd_attack_rate  ci_lower_attack_rate  ci_upper_attack_rate  mean_peak_infected  sd_peak_infected  ci_lower_peak_infected  ci_upper_peak_infected  mean_peak_fraction  sd_peak_fraction  ci_lower_peak_fraction  ci_upper_peak_fraction  mean_outbreak_duration  sd_outbreak_duration  ci_lower_outbreak_duration  ci_upper_outbreak_duration
+        Day 1        Day 2       Betweenness    0.05 0.00005                  3            500                    39.152               46.891049                     35.031901                     43.272099          0.170969        0.204764              0.152978              0.188961               9.700         10.518330                8.775803               10.624197            0.042358          0.045932                0.038322                0.046394                  16.150             14.643920                   14.863307                   17.436693
+        Day 1        Day 2       Betweenness    0.05 0.00010                  3            500                   132.516               77.662737                    125.692135                    139.339865          0.578672        0.339139              0.548874              0.608471              45.344         27.730121               42.907483               47.780517            0.198009          0.121092                0.187369                0.208649                  19.314              9.836306                   18.449729                   20.178271
+        Day 1        Day 2       Betweenness    0.05 0.00020                  3            500                   191.264               59.966710                    185.995003                    196.532997          0.835214        0.261863              0.812205              0.858223              95.182         33.008605               92.281687               98.082313            0.415642          0.144142                0.402977                0.428307                  17.116              5.211993                   16.658046                   17.573954
+        Day 1        Day 2       Betweenness    0.05 0.00050                  3            500                   215.656               39.092481                    212.221125                    219.090875          0.941729        0.170710              0.926730              0.956729             151.968         30.795905              149.262106              154.673894            0.663616          0.134480                0.651800                0.675432                  12.708              2.401306                   12.497008                   12.918992
+        Day 1        Day 2       Betweenness    0.10 0.00005                  3            500                    25.958               35.851288                     22.807913                     29.108087          0.119622        0.165213              0.105106              0.134139               6.932          8.021975                6.227146                7.636854            0.031945          0.036968                0.028697                0.035193                  13.874             13.518418                   12.686199                   15.061801
+        Day 1        Day 2       Betweenness    0.10 0.00010                  3            500                   115.510               73.336747                    109.066240                    121.953760          0.532304        0.337957              0.502609              0.561999              36.458         24.154982               34.335614               38.580386            0.168009          0.111313                0.158229                0.177790                  19.534             10.816044                   18.583644                   20.484356
+        Day 1        Day 2       Betweenness    0.10 0.00020                  3            500                   172.990               61.815890                    167.558524                    178.421476          0.797189        0.284866              0.772159              0.822219              81.292         31.729549               78.504071               84.079929            0.374618          0.146219                0.361770                0.387465                  17.396              5.917873                   16.876024                   17.915976
+        Day 1        Day 2       Betweenness    0.10 0.00050                  3            500                   203.744               36.929799                    200.499150                    206.988850          0.938912        0.170183              0.923959              0.953866             139.516         28.639661              136.999566              142.032434            0.642931          0.131980                0.631334                0.654527                  13.536              2.652315                   13.302953                   13.769047
+        Day 1        Day 2       Betweenness    0.15 0.00005                  3            500                    20.594               29.017533                     18.044364                     23.143636          0.100459        0.141549              0.088021              0.112896               5.950          6.896566                5.344031                6.555969            0.029024          0.033642                0.026068                0.031980                  12.496             11.970487                   11.444209                   13.547791
+        Day 1        Day 2       Betweenness    0.15 0.00010                  3            500                   101.210               67.954467                     95.239156                    107.180844          0.493707        0.331485              0.464581              0.522833              30.704         21.341117               28.828855               32.579145            0.149776          0.104103                0.140629                0.158923                  19.696             11.346412                   18.699043                   20.692957
+        Day 1        Day 2       Betweenness    0.15 0.00020                  3            500                   155.448               63.816773                    149.840716                    161.055284          0.758283        0.311301              0.730930              0.785636              71.824         31.031128               69.097438               74.550562            0.350361          0.151371                0.337061                0.363661                  17.212              6.251497                   16.662710                   17.761290
+        Day 1        Day 2       Betweenness    0.15 0.00050                  3            500                   190.696               37.771908                    187.377157                    194.014843          0.930224        0.184253              0.914035              0.946414             126.086         27.718138              123.650536              128.521464            0.615054          0.135210                0.603173                0.626934                  13.740              2.904699                   13.484778                   13.995222
+        Day 1        Day 2       Betweenness    0.20 0.00005                  3            500                    14.296               20.794740                     12.468862                     16.123138          0.074073        0.107745              0.064606              0.083540               4.526          4.874921                4.097663                4.954337            0.023451          0.025259                0.021231                0.025670                  10.766             10.270648                    9.863566                   11.668434
+        Day 1        Day 2       Betweenness    0.20 0.00010                  3            500                    84.556               60.884651                     79.206348                     89.905652          0.438114        0.315465              0.410396              0.465832              24.786         18.182448               23.188393               26.383607            0.128425          0.094210                0.120147                0.136703                  19.072             11.444158                   18.066455                   20.077545
+        Day 1        Day 2       Betweenness    0.20 0.00020                  3            500                   134.850               63.768679                    129.246941                    140.453059          0.698705        0.330408              0.669673              0.727736              59.406         29.367364               56.825626               61.986374            0.307803          0.152163                0.294433                0.321173                  16.850              6.843476                   16.248695                   17.451305
+        Day 1        Day 2       Betweenness    0.20 0.00050                  3            500                   177.726               34.299268                    174.712282                    180.739718          0.920860        0.177716              0.905245              0.936475             113.046         24.736849              110.872488              115.219512            0.585731          0.128170                0.574469                0.596992                  14.984              3.447828                   14.681055                   15.286945
+        Day 1        Day 2 Community Bridges    0.05 0.00005                  3            500                    43.976               51.901589                     39.415648                     48.536352          0.192035        0.226644              0.172121              0.211949              10.664         11.495887                9.653910               11.674090            0.046568          0.050200                0.042157                0.050979                  16.612             14.678705                   15.322250                   17.901750
+        Day 1        Day 2 Community Bridges    0.05 0.00010                  3            500                   146.210               73.743298                    139.730518                    152.689482          0.638472        0.322023              0.610177              0.666766              50.698         27.181915               48.309651               53.086349            0.221389          0.118698                0.210959                0.231818                  19.646              8.724271                   18.879439                   20.412561
+        Day 1        Day 2 Community Bridges    0.05 0.00020                  3            500                   194.626               56.434030                    189.667403                    199.584597          0.849895        0.246437              0.828242              0.871548             101.288         32.361142               98.444576              104.131424            0.442306          0.141315                0.429889                0.454722                  16.374              4.670090                   15.963661                   16.784339
+        Day 1        Day 2 Community Bridges    0.05 0.00050                  3            500                   215.464               39.056517                    212.032285                    218.895715          0.940891        0.170552              0.925905              0.955876             156.158         31.233702              153.413639              158.902361            0.681913          0.136392                0.669929                0.693897                  12.408              2.401055                   12.197030                   12.618970
+
+[7/14] Running visualization.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+
+====================================
+STAT 636 VISUALIZATION ANALYSIS
+====================================
+Loaded simulation conditions: 192
+
+====================================
+EXPERIMENTAL OVERVIEW
+====================================
+
+Selection days:
+['Day 1', 'Day 2']
+
+Vaccination strategies:
+['Betweenness', 'Community Bridges', 'Degree', 'Random', 'Weighted Degree', 'Within-Community Hubs']
+
+Vaccination budgets:
+[np.float64(0.05), np.float64(0.1), np.float64(0.15), np.float64(0.2)]
+
+Transmission rates:
+[np.float64(5e-05), np.float64(0.0001), np.float64(0.0002), np.float64(0.0005)]
+
+Simulation replicates:
+[np.int64(500)]
+
+Generating figures...
+Saved figure: C:\Users\KyleD\PycharmProjects\stat_project\results\figures\final_outbreak_size.png
+Saved figure: C:\Users\KyleD\PycharmProjects\stat_project\results\figures\peak_infected.png
+Saved figure: C:\Users\KyleD\PycharmProjects\stat_project\results\figures\selection_timing_comparison.png
+Saved figure: C:\Users\KyleD\PycharmProjects\stat_project\results\figures\transmission_sensitivity.png
+
+Generating summary tables...
+Saved table: C:\Users\KyleD\PycharmProjects\stat_project\results\tables\best_vaccination_strategies.csv
+Saved table: C:\Users\KyleD\PycharmProjects\stat_project\results\tables\vaccination_effectiveness.csv
+
+BEST STRATEGY PREVIEW
+selection_day              strategy  budget    beta  mean_final_outbreak_size  ci_lower_final_outbreak_size  ci_upper_final_outbreak_size  mean_peak_infected  budget_percent
+        Day 1       Weighted Degree    0.05 0.00005                    34.982                     31.124279                     38.839721               9.144             5.0
+        Day 1           Betweenness    0.05 0.00010                   132.516                    125.692135                    139.339865              45.344             5.0
+        Day 1 Within-Community Hubs    0.05 0.00020                   189.228                    183.708824                    194.747176              96.954             5.0
+        Day 1                Degree    0.05 0.00050                   214.874                    211.236737                    218.511263             151.442             5.0
+        Day 1                Degree    0.10 0.00005                    22.022                     19.370622                     24.673378               6.118            10.0
+        Day 1                Degree    0.10 0.00010                   111.966                    105.485857                    118.446143              32.144            10.0
+        Day 1           Betweenness    0.10 0.00020                   172.990                    167.558524                    178.421476              81.292            10.0
+        Day 1     Community Bridges    0.10 0.00050                   202.014                    198.403785                    205.624215             141.980            10.0
+        Day 1                Degree    0.15 0.00005                    10.634                      9.209525                     12.058475               3.830            15.0
+        Day 1       Weighted Degree    0.15 0.00010                    84.818                     79.017060                     90.618940              24.502            15.0
+
+EFFECTIVENESS PREVIEW
+selection_day              strategy  budget    beta  mean_final_outbreak_size  random_mean_outbreak  reduction_percent
+        Day 1       Weighted Degree    0.05 0.00005                    34.982                51.670          32.297271
+        Day 1                Degree    0.05 0.00005                    38.044                51.670          26.371202
+        Day 1           Betweenness    0.05 0.00005                    39.152                51.670          24.226824
+        Day 1     Community Bridges    0.05 0.00005                    43.976                51.670          14.890652
+        Day 1 Within-Community Hubs    0.05 0.00005                    44.026                51.670          14.793884
+        Day 1                Random    0.05 0.00005                    51.670                51.670           0.000000
+        Day 1                Degree    0.10 0.00005                    22.022                42.742          48.476908
+        Day 1       Weighted Degree    0.10 0.00005                    22.778                42.742          46.708156
+        Day 1           Betweenness    0.10 0.00005                    25.958                42.742          39.268167
+        Day 1 Within-Community Hubs    0.10 0.00005                    27.740                42.742          35.098966
+
+====================================
+VISUALIZATION ANALYSIS COMPLETED
+====================================
+
+[8/14] Running run_null_models.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+
+STAT 636 NULL MODEL EXPERIMENT
+============================================================
+
+============================================================
+PROCESSING DAY1
+============================================================
+Participants: 242
+Empirical edges: 5899
+Estimated communities: 10
+
+Model: ER
+Saved: C:\Users\KyleD\PycharmProjects\stat_project\results\null_models\er_day1.csv
+Nodes: 242
+Edges: 6064
+Density: 0.2079
+Degree correlation: 0.047
+Validation: PASS
+
+Model: Configuration
+Saved: C:\Users\KyleD\PycharmProjects\stat_project\results\null_models\configuration_day1.csv
+Nodes: 242
+Edges: 5183
+Density: 0.1777
+Degree correlation: 0.9896
+Validation: PASS
+
+Model: DCSBM
+Saved: C:\Users\KyleD\PycharmProjects\stat_project\results\null_models\dcsbm_day1.csv
+Nodes: 242
+Edges: 5673
+Density: 0.1945
+Degree correlation: 0.9559
+Validation: PASS
+
+============================================================
+PROCESSING DAY2
+============================================================
+Participants: 242
+Empirical edges: 5539
+Estimated communities: 10
+
+Model: ER
+Saved: C:\Users\KyleD\PycharmProjects\stat_project\results\null_models\er_day2.csv
+Nodes: 242
+Edges: 5516
+Density: 0.1892
+Degree correlation: -0.0221
+Validation: PASS
+
+Model: Configuration
+Saved: C:\Users\KyleD\PycharmProjects\stat_project\results\null_models\configuration_day2.csv
+Nodes: 242
+Edges: 4899
+Density: 0.168
+Degree correlation: 0.9922
+Validation: PASS
+
+Model: DCSBM
+Saved: C:\Users\KyleD\PycharmProjects\stat_project\results\null_models\dcsbm_day2.csv
+Nodes: 242
+Edges: 5384
+Density: 0.1846
+Degree correlation: 0.9676
+Validation: PASS
+
+============================================================
+NULL MODEL GENERATION COMPLETE
+============================================================
+ day         model  nodes  edges  density  mean_degree  degree_sd  mean_strength  total_edge_weight  degree_correlation_with_empirical  within_community_weight_fraction
+day1     Empirical    242   5899 0.202291    48.752066  20.225906   10003.305785          1210400.0                           1.000000                          0.708790
+day1            ER    242   6064 0.207949    50.115702   6.349582   10168.925620          1230440.0                           0.046975                          0.114122
+day1 Configuration    242   5183 0.177737    42.834711  16.194758    9052.066116          1095300.0                           0.989619                          0.114398
+day1         DCSBM    242   5673 0.194541    46.884298  18.826388    9732.066116          1177580.0                           0.955920                          0.361708
+day2     Empirical    242   5539 0.189945    45.776860  20.560529   10745.619835          1300220.0                           1.000000                          0.717248
+day2            ER    242   5516 0.189157    45.586777   5.580618   10653.553719          1289080.0                          -0.022124                          0.198933
+day2 Configuration    242   4899 0.167998    40.487603  16.682061    9510.413223          1150760.0                           0.992233                          0.233654
+day2         DCSBM    242   5384 0.184630    44.495868  19.758092   10383.471074          1256400.0                           0.967648                          0.482808
+
+Saved validation table:
+C:\Users\KyleD\PycharmProjects\stat_project\results\tables\null_model_validation.csv
+
+Generated networks:
+C:\Users\KyleD\PycharmProjects\stat_project\results\null_models
+
+STAT 636 CHUNK 8B COMPLETE
+
+[9/14] Running run_null_model_epidemics.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+STAT 636 configuration loaded.
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+
+
+============================================================
+LOADING PAIRED NETWORKS
+============================================================
+Participants: 242
+Empirical: Day 1 = (242, 242), Day 2 = (242, 242)
+ER: Day 1 = (242, 242), Day 2 = (242, 242)
+Configuration: Day 1 = (242, 242), Day 2 = (242, 242)
+DCSBM: Day 1 = (242, 242), Day 2 = (242, 242)
+
+All eight network matrices loaded successfully.
+
+
+============================================================
+CALCULATING VACCINATION RANKINGS
+============================================================
+
+Processing Empirical
+Previous_Day: Degree complete
+Previous_Day: Weighted_Degree complete
+Previous_Day: Betweenness complete
+Previous_Day: Community_Bridge complete
+Same_Day: Degree complete
+Same_Day: Weighted_Degree complete
+Same_Day: Betweenness complete
+Same_Day: Community_Bridge complete
+
+Processing ER
+Previous_Day: Degree complete
+Previous_Day: Weighted_Degree complete
+Previous_Day: Betweenness complete
+Previous_Day: Community_Bridge complete
+Same_Day: Degree complete
+Same_Day: Weighted_Degree complete
+Same_Day: Betweenness complete
+Same_Day: Community_Bridge complete
+
+Processing Configuration
+Previous_Day: Degree complete
+Previous_Day: Weighted_Degree complete
+Previous_Day: Betweenness complete
+Previous_Day: Community_Bridge complete
+Same_Day: Degree complete
+Same_Day: Weighted_Degree complete
+Same_Day: Betweenness complete
+Same_Day: Community_Bridge complete
+
+Processing DCSBM
+Previous_Day: Degree complete
+Previous_Day: Weighted_Degree complete
+Previous_Day: Betweenness complete
+Previous_Day: Community_Bridge complete
+Same_Day: Degree complete
+Same_Day: Weighted_Degree complete
+Same_Day: Betweenness complete
+Same_Day: Community_Bridge complete
+
+All vaccination rankings calculated.
+
+
+=================================================================
+STARTING PAIRED SIR EXPERIMENT
+=================================================================
+Simulations per setting: 200
+Transmission rate: 0.0002
+
+
+-----------------------------------------------------------------
+Vaccination budget: 5%
+Participants vaccinated: 13
+Budget 5%: completed replicate 25/200
+Budget 5%: completed replicate 50/200
+Budget 5%: completed replicate 75/200
+Budget 5%: completed replicate 100/200
+Budget 5%: completed replicate 125/200
+Budget 5%: completed replicate 150/200
+Budget 5%: completed replicate 175/200
+Budget 5%: completed replicate 200/200
+
+
+-----------------------------------------------------------------
+Vaccination budget: 10%
+Participants vaccinated: 25
+Budget 10%: completed replicate 25/200
+Budget 10%: completed replicate 50/200
+Budget 10%: completed replicate 75/200
+Budget 10%: completed replicate 100/200
+Budget 10%: completed replicate 125/200
+Budget 10%: completed replicate 150/200
+Budget 10%: completed replicate 175/200
+Budget 10%: completed replicate 200/200
+
+
+-----------------------------------------------------------------
+Vaccination budget: 15%
+Participants vaccinated: 37
+Budget 15%: completed replicate 25/200
+Budget 15%: completed replicate 50/200
+Budget 15%: completed replicate 75/200
+Budget 15%: completed replicate 100/200
+Budget 15%: completed replicate 125/200
+Budget 15%: completed replicate 150/200
+Budget 15%: completed replicate 175/200
+Budget 15%: completed replicate 200/200
+
+
+-----------------------------------------------------------------
+Vaccination budget: 20%
+Participants vaccinated: 49
+Budget 20%: completed replicate 25/200
+Budget 20%: completed replicate 50/200
+Budget 20%: completed replicate 75/200
+Budget 20%: completed replicate 100/200
+Budget 20%: completed replicate 125/200
+Budget 20%: completed replicate 150/200
+Budget 20%: completed replicate 175/200
+Budget 20%: completed replicate 200/200
+
+
+=================================================================
+PAIRED SIR EXPERIMENT COMPLETE
+=================================================================
+
+Individual simulation results saved:
+C:\Users\KyleD\PycharmProjects\stat_project\results\tables\null_model_sir_individual_results.csv
+Number of simulation records: 32000
+
+
+=================================================================
+SIR SUMMARY STATISTICS
+=================================================================
+        model selection_timing         strategy  vaccination_budget  simulations  mean_final_size  sd_final_size  median_final_size  mean_peak_infected  sd_peak_infected  median_peak_infected  mean_generations  se_final_size  se_peak  final_ci_lower  final_ci_upper  peak_ci_lower  peak_ci_upper  mean_final_proportion  mean_peak_proportion
+Configuration     Previous_Day      Betweenness                0.05          200           90.440      71.713461              138.0              16.825         13.497604                  21.0             9.345       5.070907 0.954425       80.501021      100.378979      14.954328      18.695672               0.373719              0.069525
+Configuration     Previous_Day      Betweenness                0.10          200           74.945      65.556236              115.5              13.770         12.196346                  17.0             8.860       4.635526 0.862412       65.859369       84.030631      12.079673      15.460327               0.309690              0.056901
+Configuration     Previous_Day      Betweenness                0.15          200           54.565      57.278091                6.5               9.770         10.055979                   2.0             7.585       4.050173 0.711065       46.626662       62.503338       8.376312      11.163688               0.225475              0.040372
+Configuration     Previous_Day      Betweenness                0.20          200           34.715      45.547411                3.0               6.195          7.726283                   1.0             6.295       3.220688 0.546331       28.402451       41.027549       5.124192       7.265808               0.143450              0.025599
+Configuration     Previous_Day Community_Bridge                0.05          200           83.895      71.746931              133.0              15.740         13.562896                  20.5             9.015       5.073274 0.959042       73.951383       93.838617      13.860278      17.619722               0.346674              0.065041
+Configuration     Previous_Day Community_Bridge                0.10          200           59.455      63.463343                5.0              10.660         11.081897                   2.0             7.770       4.487536 0.783608       50.659429       68.250571       9.124127      12.195873               0.245682              0.044050
+Configuration     Previous_Day Community_Bridge                0.15          200           45.685      53.229340                4.0               7.850          8.907537                   2.0             7.410       3.763883 0.629858       38.307790       53.062210       6.615478       9.084522               0.188781              0.032438
+Configuration     Previous_Day Community_Bridge                0.20          200           33.510      42.905411                2.5               6.180          7.528011                   1.0             6.445       3.033871 0.532311       27.563613       39.456387       5.136671       7.223329               0.138471              0.025537
+Configuration     Previous_Day           Degree                0.05          200           80.325      69.350391              124.0              14.700         12.694715                  19.0             9.025       4.903813 0.897652       70.713526       89.936474      12.940602      16.459398               0.331921              0.060744
+Configuration     Previous_Day           Degree                0.10          200           61.525      55.829959               84.5              10.240          9.252049                  12.0             9.045       3.947774 0.654219       53.787362       69.262638       8.957731      11.522269               0.254236              0.042314
+Configuration     Previous_Day           Degree                0.15          200           36.885      47.505744                2.0               6.305          7.516947                   1.0             6.605       3.359163 0.531528       30.301040       43.468960       5.263204       7.346796               0.152417              0.026054
+Configuration     Previous_Day           Degree                0.20          200           23.230      32.743669                2.0               4.060          5.083860                   1.0             5.915       2.315327 0.359483       18.691959       27.768041       3.355413       4.764587               0.095992              0.016777
+Configuration     Previous_Day           Random                0.05          200           93.990      72.549480              140.5              17.900         13.883217                  23.0             9.425       5.130023 0.981692       83.935155      104.044845      15.975884      19.824116               0.388388              0.073967
+Configuration     Previous_Day           Random                0.10          200           78.430      66.790568              121.0              14.235         12.361790                  18.0             9.130       4.722806 0.874111       69.173300       87.686700      12.521743      15.948257               0.324091              0.058822
+Configuration     Previous_Day           Random                0.15          200           55.330      59.253998                4.0               9.475         10.074565                   2.0             8.285       4.189890 0.712379       47.117815       63.542185       8.078737      10.871263               0.228636              0.039153
+Configuration     Previous_Day           Random                0.20          200           42.920      50.631724                3.0               7.270          8.237499                   1.0             7.205       3.580204 0.582479       35.902801       49.937199       6.128341       8.411659               0.177355              0.030041
+Configuration     Previous_Day  Weighted_Degree                0.05          200           91.695      70.197510              134.0              16.955         13.240830                  21.0             9.845       4.963714 0.936268       81.966121      101.423879      15.119915      18.790085               0.378905              0.070062
+Configuration     Previous_Day  Weighted_Degree                0.10          200           70.845      64.407863              109.5              12.380         11.323281                  14.0             8.800       4.554324 0.800677       61.918526       79.771474      10.810673      13.949327               0.292748              0.051157
+Configuration     Previous_Day  Weighted_Degree                0.15          200           48.230      54.237308                4.0               8.615          9.391366                   2.0             7.150       3.835157 0.664070       40.713093       55.746907       7.313423       9.916577               0.199298              0.035599
+Configuration     Previous_Day  Weighted_Degree                0.20          200           36.575      46.761497                3.0               6.470          7.764052                   1.0             6.510       3.306537 0.549001       30.094187       43.055813       5.393957       7.546043               0.151136              0.026736
+
+Summary saved:
+C:\Users\KyleD\PycharmProjects\stat_project\results\tables\null_model_sir_summary.csv
+
+Best strategy table saved:
+C:\Users\KyleD\PycharmProjects\stat_project\results\tables\null_model_best_strategies.csv
+
+
+=================================================================
+CHUNK 8C COMPLETE
+=================================================================
+Total simulation records: 32000
+Network models: 4
+Vaccination strategies: 5
+Vaccination budgets: 4
+Selection timings: 2
+
+Output files:
+C:\Users\KyleD\PycharmProjects\stat_project\results\tables\null_model_sir_individual_results.csv
+C:\Users\KyleD\PycharmProjects\stat_project\results\tables\null_model_sir_summary.csv
+C:\Users\KyleD\PycharmProjects\stat_project\results\tables\null_model_best_strategies.csv
+
+All experiments finished.
+
+[10/14] Running visualize_null_model_epidemics.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+=================================================================
+STAT 636 NULL MODEL VISUALIZATION
+=================================================================
+Summary records: 160
+Individual records: 32000
+Models: <StringArray>
+['Configuration', 'DCSBM', 'ER', 'Empirical']
+Length: 4, dtype: str
+Strategies: <StringArray>
+['Betweenness', 'Community_Bridge', 'Degree', 'Random', 'Weighted_Degree']
+Length: 5, dtype: str
+Vaccination budgets: [np.float64(0.05), np.float64(0.1), np.float64(0.15), np.float64(0.2)]
+Saved figure: C:\Users\KyleD\PycharmProjects\stat_project\results\figures\null_model_final_outbreak_previous_day.png
+Saved figure: C:\Users\KyleD\PycharmProjects\stat_project\results\figures\null_model_final_outbreak_same_day.png
+Saved figure: C:\Users\KyleD\PycharmProjects\stat_project\results\figures\null_model_peak_infections_previous_day.png
+Saved figure: C:\Users\KyleD\PycharmProjects\stat_project\results\figures\null_model_peak_infections_same_day.png
+
+FIGURE GENERATION COMPLETE
+
+STATISTICAL TESTING COMPLETE
+
+Kruskal-Wallis results:
+selection_timing         strategy  vaccination_budget           test  statistic      p_value  number_of_models
+    Previous_Day      Betweenness                0.05 Kruskal-Wallis  94.681899 2.161110e-20                 4
+    Previous_Day      Betweenness                0.10 Kruskal-Wallis  51.952383 3.065890e-11                 4
+    Previous_Day      Betweenness                0.15 Kruskal-Wallis  24.307911 2.154236e-05                 4
+    Previous_Day      Betweenness                0.20 Kruskal-Wallis  13.116804 4.390699e-03                 4
+    Previous_Day Community_Bridge                0.05 Kruskal-Wallis 103.191689 3.199786e-22                 4
+    Previous_Day Community_Bridge                0.10 Kruskal-Wallis  54.855363 7.371739e-12                 4
+    Previous_Day Community_Bridge                0.15 Kruskal-Wallis  62.960326 1.369472e-13                 4
+    Previous_Day Community_Bridge                0.20 Kruskal-Wallis  20.420822 1.388479e-04                 4
+    Previous_Day           Degree                0.05 Kruskal-Wallis  78.188739 7.507491e-17                 4
+    Previous_Day           Degree                0.10 Kruskal-Wallis  66.070236 2.960763e-14                 4
+
+Pairwise comparison results:
+selection_timing    strategy  vaccination_budget         model  empirical_mean  null_mean  mean_difference  empirical_median  null_median  statistic      p_value  holm_adjusted_p  significant_005
+    Previous_Day Betweenness                0.05            ER          79.780    121.045           41.265             120.0        163.0    10541.0 2.154594e-16     6.463783e-16             True
+    Previous_Day Betweenness                0.05 Configuration          79.780     90.440           10.660             120.0        138.0    17828.0 5.863635e-02     5.863635e-02            False
+    Previous_Day Betweenness                0.05         DCSBM          79.780     99.665           19.885             120.0        146.0    15180.0 2.823643e-05     5.647285e-05             True
+    Previous_Day Betweenness                0.10            ER          62.510     91.575           29.065              65.0        141.0    13064.5 1.566402e-09     4.699205e-09             True
+    Previous_Day Betweenness                0.10 Configuration          62.510     74.945           12.435              65.0        115.5    17451.5 2.627038e-02     2.627038e-02             True
+    Previous_Day Betweenness                0.10         DCSBM          62.510     79.190           16.680              65.0        122.5    15613.0 1.324170e-04     2.648341e-04             True
+    Previous_Day Betweenness                0.15            ER          44.155     68.770           24.615               4.0         98.0    14996.5 1.340700e-05     4.022100e-05             True
+    Previous_Day Betweenness                0.15 Configuration          44.155     54.565           10.410               4.0          6.5    18107.5 9.860344e-02     1.972069e-01            False
+    Previous_Day Betweenness                0.15         DCSBM          44.155     52.790            8.635               4.0          2.0    18573.0 2.115080e-01     2.115080e-01            False
+    Previous_Day Betweenness                0.20            ER          31.340     53.490           22.150               2.0          6.0    16223.0 9.678951e-04     2.903685e-03             True
+
+Significant pairwise comparisons:
+63
+
+Saved:
+C:\Users\KyleD\PycharmProjects\stat_project\results\tables\null_model_kruskal_tests.csv
+C:\Users\KyleD\PycharmProjects\stat_project\results\tables\null_model_pairwise_tests.csv
+
+[11/14] Running advanced_statistical_analysis.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+=================================================================
+STAT 636 ADVANCED STATISTICAL ANALYSIS
+=================================================================
+
+Loaded individual simulation results.
+Records: 32000
+Models: <StringArray>
+['Empirical', 'ER', 'Configuration', 'DCSBM']
+Length: 4, dtype: str
+Strategies: <StringArray>
+['Random', 'Degree', 'Weighted_Degree', 'Betweenness', 'Community_Bridge']
+Length: 5, dtype: str
+Selection timings: <StringArray>
+['Previous_Day', 'Same_Day']
+Length: 2, dtype: str
+
+Data validation: PASS
+
+=================================================================
+PAIRING DIAGNOSTICS
+=================================================================
+selection_timing         strategy  vaccination_budget  paired_replicates  pairing_complete
+    Previous_Day      Betweenness                0.05                200              True
+    Previous_Day      Betweenness                0.10                200              True
+    Previous_Day      Betweenness                0.15                200              True
+    Previous_Day      Betweenness                0.20                200              True
+    Previous_Day Community_Bridge                0.05                200              True
+    Previous_Day Community_Bridge                0.10                200              True
+    Previous_Day Community_Bridge                0.15                200              True
+    Previous_Day Community_Bridge                0.20                200              True
+    Previous_Day           Degree                0.05                200              True
+    Previous_Day           Degree                0.10                200              True
+
+Saved: chunk9_pairing_diagnostics.csv
+
+Chunk 9A: Helpers and diagnostics complete.
+
+=================================================================
+FRIEDMAN TESTS
+=================================================================
+
+Friedman results:
+      outcome selection_timing         strategy  vaccination_budget  paired_replicates  friedman_statistic      p_value  kendalls_w  holm_adjusted_p  significant_005
+   final_size     Previous_Day      Betweenness                0.05                200           95.473768 1.460482e-20    0.159123     5.841929e-19             True
+peak_infected     Previous_Day      Betweenness                0.05                200           48.378672 1.768828e-10    0.080631     6.190899e-09             True
+   final_size     Previous_Day      Betweenness                0.10                200           40.747994 7.395536e-09    0.067913     1.627018e-07             True
+peak_infected     Previous_Day      Betweenness                0.10                200           25.295987 1.338943e-05    0.042160     2.543991e-04             True
+   final_size     Previous_Day      Betweenness                0.15                200           24.852179 1.657926e-05    0.041420     2.486889e-04             True
+peak_infected     Previous_Day      Betweenness                0.15                200           11.411697 9.695787e-03    0.019019     7.756630e-02            False
+   final_size     Previous_Day      Betweenness                0.20                200           11.664648 8.624839e-03    0.019441     4.312419e-02             True
+peak_infected     Previous_Day      Betweenness                0.20                200            5.459824 1.410614e-01    0.009100     4.516978e-01            False
+   final_size     Previous_Day Community_Bridge                0.05                200           71.808947 1.749206e-15    0.119682     5.772379e-14             True
+peak_infected     Previous_Day Community_Bridge                0.05                200           43.445172 1.979629e-09    0.072409     6.334811e-08             True
+   final_size     Previous_Day Community_Bridge                0.10                200           55.454496 5.492215e-12    0.092424     1.427976e-10             True
+peak_infected     Previous_Day Community_Bridge                0.10                200           42.871404 2.620681e-09    0.071452     8.124111e-08             True
+
+Saved: C:\Users\KyleD\PycharmProjects\stat_project\results\tables\chunk9_friedman_results.csv
+
+=================================================================
+PAIRED WILCOXON TESTS
+=================================================================
+
+Paired Wilcoxon results:
+      outcome selection_timing    strategy  vaccination_budget    null_model  paired_replicates  empirical_mean  null_mean  mean_difference  effect_size_dz   ci_lower   ci_upper  wilcoxon_statistic      p_value  holm_adjusted_p  significant_005
+   final_size     Previous_Day Betweenness                0.05            ER                200          79.780    121.045          -41.265       -0.402993 -55.514625 -27.339625              3856.5 2.827011e-11     8.481033e-11             True
+   final_size     Previous_Day Betweenness                0.05 Configuration                200          79.780     90.440          -10.660       -0.116129 -23.455375   2.265250              6672.0 3.534562e-02     3.534562e-02             True
+   final_size     Previous_Day Betweenness                0.05         DCSBM                200          79.780     99.665          -19.885       -0.216690 -32.575250  -7.139500              4974.0 1.387677e-05     2.775354e-05             True
+peak_infected     Previous_Day Betweenness                0.05            ER                200          13.065     22.125           -9.060       -0.489086 -11.680250  -6.560000              4055.0 4.484015e-10     1.345205e-09             True
+peak_infected     Previous_Day Betweenness                0.05 Configuration                200          13.065     16.825           -3.760       -0.232021  -5.985125  -1.529875              5448.0 1.633625e-03     1.633625e-03             True
+peak_infected     Previous_Day Betweenness                0.05         DCSBM                200          13.065     20.420           -7.355       -0.410636  -9.825125  -4.880000              3685.0 6.437204e-08     1.287441e-07             True
+   final_size     Previous_Day Betweenness                0.10            ER                200          62.510     91.575          -29.065       -0.274007 -43.620000 -14.614875              5584.0 1.170547e-06     3.511640e-06             True
+   final_size     Previous_Day Betweenness                0.10 Configuration                200          62.510     74.945          -12.435       -0.154451 -23.210750  -1.160000              5615.5 7.357319e-03     7.357319e-03             True
+   final_size     Previous_Day Betweenness                0.10         DCSBM                200          62.510     79.190          -16.680       -0.199903 -27.960125  -5.318875              5012.0 3.050675e-04     6.101350e-04             True
+peak_infected     Previous_Day Betweenness                0.10            ER                200          10.495     15.600           -5.105       -0.284458  -7.580125  -2.595000              5452.5 8.028388e-05     1.605678e-04             True
+peak_infected     Previous_Day Betweenness                0.10 Configuration                200          10.495     13.770           -3.275       -0.227477  -5.235000  -1.249875              4889.0 1.432940e-03     1.432940e-03             True
+peak_infected     Previous_Day Betweenness                0.10         DCSBM                200          10.495     15.240           -4.745       -0.312876  -6.815000  -2.679875              4071.0 1.495995e-05     4.487985e-05             True
+   final_size     Previous_Day Betweenness                0.15            ER                200          44.155     68.770          -24.615       -0.304278 -35.480000 -13.444250              4835.0 1.443945e-06     4.331835e-06             True
+   final_size     Previous_Day Betweenness                0.15 Configuration                200          44.155     54.565          -10.410       -0.148759 -19.955125  -0.914500              5849.0 3.626529e-02     5.324830e-02            False
+   final_size     Previous_Day Betweenness                0.15         DCSBM                200          44.155     52.790           -8.635       -0.112463 -18.921125   1.885125              5276.0 2.662415e-02     5.324830e-02            False
+
+Saved: C:\Users\KyleD\PycharmProjects\stat_project\results\tables\chunk9_paired_wilcoxon_results.csv
+
+=================================================================
+STATISTICALLY SIGNIFICANT RESULTS
+=================================================================
+
+Significant Friedman tests:
+      outcome selection_timing         strategy  vaccination_budget  paired_replicates  friedman_statistic      p_value  kendalls_w  holm_adjusted_p  significant_005
+   final_size     Previous_Day      Betweenness                0.05                200           95.473768 1.460482e-20    0.159123     5.841929e-19             True
+peak_infected     Previous_Day      Betweenness                0.05                200           48.378672 1.768828e-10    0.080631     6.190899e-09             True
+   final_size     Previous_Day      Betweenness                0.10                200           40.747994 7.395536e-09    0.067913     1.627018e-07             True
+peak_infected     Previous_Day      Betweenness                0.10                200           25.295987 1.338943e-05    0.042160     2.543991e-04             True
+   final_size     Previous_Day      Betweenness                0.15                200           24.852179 1.657926e-05    0.041420     2.486889e-04             True
+   final_size     Previous_Day      Betweenness                0.20                200           11.664648 8.624839e-03    0.019441     4.312419e-02             True
+   final_size     Previous_Day Community_Bridge                0.05                200           71.808947 1.749206e-15    0.119682     5.772379e-14             True
+peak_infected     Previous_Day Community_Bridge                0.05                200           43.445172 1.979629e-09    0.072409     6.334811e-08             True
+   final_size     Previous_Day Community_Bridge                0.10                200           55.454496 5.492215e-12    0.092424     1.427976e-10             True
+peak_infected     Previous_Day Community_Bridge                0.10                200           42.871404 2.620681e-09    0.071452     8.124111e-08             True
+   final_size     Previous_Day Community_Bridge                0.15                200           56.826180 2.799087e-12    0.094710     7.557534e-11             True
+peak_infected     Previous_Day Community_Bridge                0.15                200           27.866851 3.873426e-06    0.046445     9.296223e-05             True
+   final_size     Previous_Day Community_Bridge                0.20                200           21.003252 1.051126e-04    0.035005     1.366464e-03             True
+peak_infected     Previous_Day Community_Bridge                0.20                200           15.715503 1.296899e-03    0.026193     1.426589e-02             True
+   final_size     Previous_Day           Degree                0.05                200           85.647446 1.884410e-18    0.142746     7.349198e-17             True
+peak_infected     Previous_Day           Degree                0.05                200           56.931663 2.657665e-12    0.094886     1.009913e-10             True
+   final_size     Previous_Day           Degree                0.10                200           66.588398 2.293684e-14    0.110981     7.110421e-13             True
+peak_infected     Previous_Day           Degree                0.10                200           51.365473 4.089081e-11    0.085609     1.472069e-09             True
+   final_size     Previous_Day           Degree                0.15                200           61.407386 2.941122e-13    0.102346     8.529255e-12             True
+peak_infected     Previous_Day           Degree                0.15                200           53.398154 1.507848e-11    0.088997     5.579037e-10             True
+   final_size     Previous_Day           Degree                0.20                200           41.385841 5.416045e-09    0.068976     1.299851e-07             True
+peak_infected     Previous_Day           Degree                0.20                200           36.257738 6.605265e-08    0.060430     1.981579e-06             True
+   final_size     Previous_Day           Random                0.05                200           69.746057 4.837647e-15    0.116243     1.548047e-13             True
+peak_infected     Previous_Day           Random                0.05                200           44.130130 1.416115e-09    0.073550     4.673178e-08             True
+   final_size     Previous_Day           Random                0.10                200           41.019017 6.478752e-09    0.068365     1.490113e-07             True
+peak_infected     Previous_Day           Random                0.10                200           19.860227 1.814482e-04    0.033100     2.721723e-03             True
+   final_size     Previous_Day           Random                0.15                200           30.226931 1.236394e-06    0.050378     1.978230e-05             True
+peak_infected     Previous_Day           Random                0.15                200           13.495050 3.679638e-03    0.022492     3.311674e-02             True
+   final_size     Previous_Day           Random                0.20                200           11.602468 8.876743e-03    0.019337     4.312419e-02             True
+   final_size     Previous_Day  Weighted_Degree                0.05                200           82.516518 8.854150e-18    0.137528     3.364577e-16             True
+peak_infected     Previous_Day  Weighted_Degree                0.05                200           46.532503 4.369815e-10    0.077554     1.485737e-08             True
+   final_size     Previous_Day  Weighted_Degree                0.10                200           40.049442 1.040104e-08    0.066749     2.184218e-07             True
+peak_infected     Previous_Day  Weighted_Degree                0.10                200           26.584257 7.195404e-06    0.044307     1.511035e-04             True
+   final_size     Previous_Day  Weighted_Degree                0.15                200           34.983471 1.228085e-07    0.058306     2.333361e-06             True
+peak_infected     Previous_Day  Weighted_Degree                0.15                200           22.100694 6.215862e-05    0.036834     1.056696e-03             True
+   final_size         Same_Day      Betweenness                0.05                200           62.182540 2.008308e-13    0.103638     6.024925e-12             True
+peak_infected         Same_Day      Betweenness                0.05                200           27.093326 5.627999e-06    0.045156     1.294440e-04             True
+   final_size         Same_Day      Betweenness                0.10                200           44.295918 1.305803e-09    0.073827     3.264507e-08             True
+peak_infected         Same_Day      Betweenness                0.10                200           25.611205 1.150304e-05    0.042685     2.300607e-04             True
+   final_size         Same_Day      Betweenness                0.15                200           19.423248 2.234806e-04    0.032372     2.681767e-03             True
+peak_infected         Same_Day      Betweenness                0.15                200           16.880838 7.477628e-04    0.028135     9.720916e-03             True
+   final_size         Same_Day      Betweenness                0.20                200           23.369222 3.382330e-05    0.038949     4.735261e-04             True
+peak_infected         Same_Day      Betweenness                0.20                200           22.632432 4.817140e-05    0.037721     8.670851e-04             True
+   final_size         Same_Day Community_Bridge                0.05                200           73.900690 6.232971e-16    0.123168     2.243870e-14             True
+peak_infected         Same_Day Community_Bridge                0.05                200           35.508493 9.512318e-08    0.059181     2.663449e-06             True
+   final_size         Same_Day Community_Bridge                0.10                200           18.966969 2.777322e-04    0.031612     2.976473e-03             True
+peak_infected         Same_Day Community_Bridge                0.10                200           16.697037 8.157194e-04    0.027828     9.788633e-03             True
+   final_size         Same_Day           Degree                0.05                200           79.863837 3.282786e-17    0.133106     1.214631e-15             True
+peak_infected         Same_Day           Degree                0.05                200           57.772753 1.757676e-12    0.096288     6.854936e-11             True
+   final_size         Same_Day           Degree                0.10                200           73.752623 6.705380e-16    0.122921     2.346883e-14             True
+peak_infected         Same_Day           Degree                0.10                200           60.801286 3.963140e-13    0.101335     1.585256e-11             True
+   final_size         Same_Day           Degree                0.15                200           31.599419 6.356189e-07    0.052666     1.080552e-05             True
+peak_infected         Same_Day           Degree                0.15                200           30.788882 9.416535e-07    0.051315     2.448299e-05             True
+   final_size         Same_Day           Degree                0.20                200           18.536600 3.408453e-04    0.030894     3.067608e-03             True
+peak_infected         Same_Day           Degree                0.20                200           19.028405 2.697263e-04    0.031714     3.776168e-03             True
+   final_size         Same_Day           Random                0.05                200           73.352381 8.169286e-16    0.122254     2.777557e-14             True
+peak_infected         Same_Day           Random                0.05                200           35.778502 8.340928e-08    0.059631     2.418869e-06             True
+   final_size         Same_Day           Random                0.10                200           32.624217 3.865442e-07    0.054374     6.957796e-06             True
+peak_infected         Same_Day           Random                0.10                200           26.789050 6.518365e-06    0.044648     1.434040e-04             True
+   final_size         Same_Day           Random                0.15                200           13.594350 3.512687e-03    0.022657     2.107612e-02             True
+   final_size         Same_Day           Random                0.20                200           17.691438 5.092325e-04    0.029486     4.073860e-03             True
+   final_size         Same_Day  Weighted_Degree                0.05                200           58.992525 9.648452e-13    0.098321     2.701566e-11             True
+peak_infected         Same_Day  Weighted_Degree                0.05                200           29.793277 1.525374e-06    0.049655     3.813436e-05             True
+   final_size         Same_Day  Weighted_Degree                0.10                200           37.495922 3.613659e-08    0.062493     7.227319e-07             True
+peak_infected         Same_Day  Weighted_Degree                0.10                200           32.634706 3.845807e-07    0.054391     1.038368e-05             True
+   final_size         Same_Day  Weighted_Degree                0.15                200           19.021703 2.705884e-04    0.031703     2.976473e-03             True
+peak_infected         Same_Day  Weighted_Degree                0.15                200           21.241023 9.381323e-05    0.035402     1.501012e-03             True
+   final_size         Same_Day  Weighted_Degree                0.20                200           15.216696 1.640525e-03    0.025361     1.148368e-02             True
+peak_infected         Same_Day  Weighted_Degree                0.20                200           15.291695 1.583604e-03    0.025486     1.583604e-02             True
+
+Significant paired comparisons:
+      outcome selection_timing         strategy  vaccination_budget    null_model  paired_replicates  empirical_mean  null_mean  mean_difference  effect_size_dz   ci_lower   ci_upper  wilcoxon_statistic      p_value  holm_adjusted_p  significant_005
+   final_size     Previous_Day      Betweenness                0.05            ER                200          79.780    121.045          -41.265       -0.402993 -55.514625 -27.339625              3856.5 2.827011e-11     8.481033e-11             True
+   final_size     Previous_Day      Betweenness                0.05 Configuration                200          79.780     90.440          -10.660       -0.116129 -23.455375   2.265250              6672.0 3.534562e-02     3.534562e-02             True
+   final_size     Previous_Day      Betweenness                0.05         DCSBM                200          79.780     99.665          -19.885       -0.216690 -32.575250  -7.139500              4974.0 1.387677e-05     2.775354e-05             True
+peak_infected     Previous_Day      Betweenness                0.05            ER                200          13.065     22.125           -9.060       -0.489086 -11.680250  -6.560000              4055.0 4.484015e-10     1.345205e-09             True
+peak_infected     Previous_Day      Betweenness                0.05 Configuration                200          13.065     16.825           -3.760       -0.232021  -5.985125  -1.529875              5448.0 1.633625e-03     1.633625e-03             True
+peak_infected     Previous_Day      Betweenness                0.05         DCSBM                200          13.065     20.420           -7.355       -0.410636  -9.825125  -4.880000              3685.0 6.437204e-08     1.287441e-07             True
+   final_size     Previous_Day      Betweenness                0.10            ER                200          62.510     91.575          -29.065       -0.274007 -43.620000 -14.614875              5584.0 1.170547e-06     3.511640e-06             True
+   final_size     Previous_Day      Betweenness                0.10 Configuration                200          62.510     74.945          -12.435       -0.154451 -23.210750  -1.160000              5615.5 7.357319e-03     7.357319e-03             True
+   final_size     Previous_Day      Betweenness                0.10         DCSBM                200          62.510     79.190          -16.680       -0.199903 -27.960125  -5.318875              5012.0 3.050675e-04     6.101350e-04             True
+peak_infected     Previous_Day      Betweenness                0.10            ER                200          10.495     15.600           -5.105       -0.284458  -7.580125  -2.595000              5452.5 8.028388e-05     1.605678e-04             True
+peak_infected     Previous_Day      Betweenness                0.10 Configuration                200          10.495     13.770           -3.275       -0.227477  -5.235000  -1.249875              4889.0 1.432940e-03     1.432940e-03             True
+peak_infected     Previous_Day      Betweenness                0.10         DCSBM                200          10.495     15.240           -4.745       -0.312876  -6.815000  -2.679875              4071.0 1.495995e-05     4.487985e-05             True
+   final_size     Previous_Day      Betweenness                0.15            ER                200          44.155     68.770          -24.615       -0.304278 -35.480000 -13.444250              4835.0 1.443945e-06     4.331835e-06             True
+peak_infected     Previous_Day      Betweenness                0.15            ER                200           6.860     11.360           -4.500       -0.356845  -6.230125  -2.765000              4375.0 4.258338e-06     1.277501e-05             True
+peak_infected     Previous_Day      Betweenness                0.15 Configuration                200           6.860      9.770           -2.910       -0.252848  -4.510000  -1.315000              4624.0 1.354123e-03     2.708246e-03             True
+peak_infected     Previous_Day      Betweenness                0.15         DCSBM                200           6.860      9.970           -3.110       -0.231917  -4.950125  -1.255000              4251.5 2.821477e-03     2.821477e-03             True
+   final_size     Previous_Day      Betweenness                0.20            ER                200          31.340     53.490          -22.150       -0.313202 -31.630250 -12.564250              5130.5 1.648272e-05     4.944816e-05             True
+   final_size     Previous_Day      Betweenness                0.20         DCSBM                200          31.340     41.940          -10.600       -0.167554 -19.665125  -2.049625              5720.5 2.170883e-02     4.341766e-02             True
+peak_infected     Previous_Day      Betweenness                0.20            ER                200           5.440      8.380           -2.940       -0.269440  -4.455125  -1.449875              5002.0 4.202775e-04     1.260832e-03             True
+peak_infected     Previous_Day      Betweenness                0.20         DCSBM                200           5.440      7.745           -2.305       -0.209019  -3.755000  -0.804875              4684.5 1.085698e-02     2.171395e-02             True
+   final_size     Previous_Day Community_Bridge                0.05            ER                200          87.640    119.660          -32.020       -0.308133 -46.525750 -17.358875              4596.0 1.404994e-09     4.214981e-09             True
+   final_size     Previous_Day Community_Bridge                0.05         DCSBM                200          87.640    100.410          -12.770       -0.126247 -26.900125   1.360250              6324.0 2.510585e-03     5.021170e-03             True
+peak_infected     Previous_Day Community_Bridge                0.05            ER                200          14.660     21.975           -7.315       -0.394337  -9.915250  -4.815000              4423.5 1.054966e-07     3.164898e-07             True
+peak_infected     Previous_Day Community_Bridge                0.05         DCSBM                200          14.660     21.620           -6.960       -0.349192  -9.675125  -4.299875              4426.0 4.075361e-06     8.150722e-06             True
+   final_size     Previous_Day Community_Bridge                0.10            ER                200          72.930     92.205          -19.275       -0.203557 -32.505000  -6.588375              5317.0 1.014765e-05     3.044296e-05             True
+   final_size     Previous_Day Community_Bridge                0.10 Configuration                200          72.930     59.455           13.475        0.160603   2.094875  25.410250              5874.5 4.694124e-03     9.388249e-03             True
+   final_size     Previous_Day Community_Bridge                0.10         DCSBM                200          72.930     84.000          -11.070       -0.121446 -23.512125   1.085875              6063.5 7.905513e-03     9.388249e-03             True
+peak_infected     Previous_Day Community_Bridge                0.10            ER                200          12.175     15.890           -3.715       -0.226707  -5.990000  -1.459875              5529.5 1.215369e-03     2.430739e-03             True
+peak_infected     Previous_Day Community_Bridge                0.10         DCSBM                200          12.175     16.865           -4.690       -0.282401  -6.965000  -2.329625              4522.0 6.804201e-05     2.041260e-04             True
+   final_size     Previous_Day Community_Bridge                0.15            ER                200          57.580     84.850          -27.270       -0.312209 -39.405125 -15.074875              5431.5 1.035314e-06     3.105943e-06             True
+   final_size     Previous_Day Community_Bridge                0.15 Configuration                200          57.580     45.685           11.895        0.155887   1.279625  22.405500              5988.5 7.842538e-03     1.568508e-02             True
+   final_size     Previous_Day Community_Bridge                0.15         DCSBM                200          57.580     68.405          -10.825       -0.132582 -22.485250   0.465875              6285.0 1.971451e-02     1.971451e-02             True
+peak_infected     Previous_Day Community_Bridge                0.15            ER                200           9.590     13.635           -4.045       -0.295444  -5.990125  -2.200000              5665.0 5.598930e-05     1.679679e-04             True
+peak_infected     Previous_Day Community_Bridge                0.15 Configuration                200           9.590      7.850            1.740        0.140713   0.060000   3.395000              6012.0 3.846109e-02     3.846109e-02             True
+peak_infected     Previous_Day Community_Bridge                0.15         DCSBM                200           9.590     13.475           -3.885       -0.253991  -5.975125  -1.790000              5007.0 6.352685e-04     1.270537e-03             True
+   final_size     Previous_Day Community_Bridge                0.20            ER                200          44.905     56.830          -11.925       -0.159610 -22.275000  -1.849375              6337.5 1.335267e-02     1.999308e-02             True
+   final_size     Previous_Day Community_Bridge                0.20 Configuration                200          44.905     33.510           11.395        0.172737   2.118750  20.690250              6267.5 9.996541e-03     1.999308e-02             True
+   final_size     Previous_Day Community_Bridge                0.20         DCSBM                200          44.905     57.540          -12.635       -0.181631 -22.285125  -2.959875              5943.5 6.415069e-03     1.924521e-02             True
+peak_infected     Previous_Day Community_Bridge                0.20         DCSBM                200           7.830     10.585           -2.755       -0.224528  -4.455000  -1.045000              4755.5 2.008822e-03     6.026465e-03             True
+   final_size     Previous_Day           Degree                0.05            ER                200          78.220    109.495          -31.275       -0.309513 -45.365625 -16.709375              4863.0 2.918194e-08     8.754583e-08             True
+   final_size     Previous_Day           Degree                0.05         DCSBM                200          78.220     95.650          -17.430       -0.194089 -29.500750  -5.009125              4211.0 2.745048e-05     5.490096e-05             True
+peak_infected     Previous_Day           Degree                0.05            ER                200          12.455     19.360           -6.905       -0.394936  -9.380125  -4.500000              4310.0 1.734042e-07     3.793246e-07             True
+peak_infected     Previous_Day           Degree                0.05 Configuration                200          12.455     14.700           -2.245       -0.149948  -4.400000  -0.144750              4987.5 4.448551e-02     4.448551e-02             True
+peak_infected     Previous_Day           Degree                0.05         DCSBM                200          12.455     19.170           -6.715       -0.410512  -8.915125  -4.504750              3390.5 1.264415e-07     3.793246e-07             True
+   final_size     Previous_Day           Degree                0.10            ER                200          46.850     93.775          -46.925       -0.528973 -59.360375 -34.609875              3773.5 1.305860e-11     3.917581e-11             True
+   final_size     Previous_Day           Degree                0.10 Configuration                200          46.850     61.525          -14.675       -0.219749 -23.770250  -5.404875              5018.0 5.795575e-03     5.795575e-03             True
+   final_size     Previous_Day           Degree                0.10         DCSBM                200          46.850     71.680          -24.830       -0.310176 -35.750875 -13.669750              3964.0 4.241279e-06     8.482558e-06             True
+peak_infected     Previous_Day           Degree                0.10            ER                200           7.360     15.795           -8.435       -0.595375 -10.390000  -6.444875              3382.5 1.335633e-12     4.006900e-12             True
+peak_infected     Previous_Day           Degree                0.10 Configuration                200           7.360     10.240           -2.880       -0.275968  -4.305125  -1.460000              3231.5 1.116899e-04     1.116899e-04             True
+peak_infected     Previous_Day           Degree                0.10         DCSBM                200           7.360     13.760           -6.400       -0.454252  -8.415000  -4.440000              2723.0 4.803081e-09     9.606161e-09             True
+   final_size     Previous_Day           Degree                0.15            ER                200          30.970     74.365          -43.395       -0.553841 -54.050500 -32.478750              3407.0 4.748268e-12     1.424481e-11             True
+   final_size     Previous_Day           Degree                0.15         DCSBM                200          30.970     52.615          -21.645       -0.351600 -30.000375 -13.184625              3282.5 5.068216e-06     1.013643e-05             True
+peak_infected     Previous_Day           Degree                0.15            ER                200           5.165     12.540           -7.375       -0.580021  -9.145125  -5.629875              2934.0 1.210694e-12     3.632083e-12             True
+peak_infected     Previous_Day           Degree                0.15         DCSBM                200           5.165      9.250           -4.085       -0.400843  -5.515125  -2.665000              2568.0 1.979953e-07     3.959907e-07             True
+   final_size     Previous_Day           Degree                0.20            ER                200          19.570     55.275          -35.705       -0.584307 -44.100000 -27.354375              3244.5 6.937265e-12     2.081180e-11             True
+   final_size     Previous_Day           Degree                0.20         DCSBM                200          19.570     33.080          -13.510       -0.270164 -20.365000  -6.840000              3819.5 1.732494e-03     3.464989e-03             True
+peak_infected     Previous_Day           Degree                0.20            ER                200           3.625      8.465           -4.840       -0.540232  -6.130000  -3.610000              2955.0 3.089366e-11     9.268097e-11             True
+peak_infected     Previous_Day           Degree                0.20         DCSBM                200           3.625      5.955           -2.330       -0.289862  -3.445000  -1.240000              2624.0 3.431861e-04     6.863722e-04             True
+   final_size     Previous_Day           Random                0.05            ER                200          86.285    117.765          -31.480       -0.295147 -45.916000 -16.570000              4774.0 5.750360e-09     1.725108e-08             True
+   final_size     Previous_Day           Random                0.05         DCSBM                200          86.285    106.135          -19.850       -0.208685 -32.810250  -6.468750              5483.5 6.455774e-05     1.291155e-04             True
+peak_infected     Previous_Day           Random                0.05            ER                200          14.995     21.075           -6.080       -0.318510  -8.660125  -3.545000              5440.0 9.473215e-06     1.894643e-05             True
+peak_infected     Previous_Day           Random                0.05 Configuration                200          14.995     17.900           -2.905       -0.165391  -5.320250  -0.429625              5582.0 6.284658e-03     6.284658e-03             True
+peak_infected     Previous_Day           Random                0.05         DCSBM                200          14.995     22.605           -7.610       -0.406382 -10.215125  -4.919875              4031.0 7.319371e-08     2.195811e-07             True
+   final_size     Previous_Day           Random                0.10            ER                200          76.840    100.250          -23.410       -0.237961 -36.846750  -9.794375              5427.0 3.725143e-06     1.117543e-05             True
+   final_size     Previous_Day           Random                0.10         DCSBM                200          76.840     87.230          -10.390       -0.110301 -23.475125   3.110125              6095.5 6.588975e-03     1.317795e-02             True
+peak_infected     Previous_Day           Random                0.10            ER                200          13.560     17.510           -3.950       -0.224974  -6.410125  -1.495000              6237.5 1.180721e-03     2.492865e-03             True
+peak_infected     Previous_Day           Random                0.10         DCSBM                200          13.560     17.770           -4.210       -0.234371  -6.720250  -1.664875              5457.5 8.309551e-04     2.492865e-03             True
+   final_size     Previous_Day           Random                0.15            ER                200          66.555     79.540          -12.985       -0.144461 -25.200250  -0.174625              6878.5 5.308140e-03     1.592442e-02             True
+   final_size     Previous_Day           Random                0.20         DCSBM                200          44.570     54.660          -10.090       -0.146473 -19.620500  -0.409500              6450.0 1.543737e-02     4.631210e-02             True
+   final_size     Previous_Day  Weighted_Degree                0.05            ER                200          77.400    118.460          -41.060       -0.384333 -55.876375 -26.454250              4407.5 1.834460e-10     5.503380e-10             True
+   final_size     Previous_Day  Weighted_Degree                0.05 Configuration                200          77.400     91.695          -14.295       -0.145434 -27.870125  -0.729500              6439.0 7.997331e-03     7.997331e-03             True
+   final_size     Previous_Day  Weighted_Degree                0.05         DCSBM                200          77.400     90.475          -13.075       -0.143138 -26.465250  -0.654625              5117.0 3.843740e-04     7.687480e-04             True
+peak_infected     Previous_Day  Weighted_Degree                0.05            ER                200          13.400     22.450           -9.050       -0.461025 -11.810125  -6.335000              4100.5 1.769966e-09     5.309897e-09             True
+peak_infected     Previous_Day  Weighted_Degree                0.05 Configuration                200          13.400     16.955           -3.555       -0.198018  -6.085375  -1.130000              5646.0 4.378618e-03     4.378618e-03             True
+peak_infected     Previous_Day  Weighted_Degree                0.05         DCSBM                200          13.400     18.360           -4.960       -0.279565  -7.330000  -2.420000              4410.5 1.657788e-04     3.315577e-04             True
+   final_size     Previous_Day  Weighted_Degree                0.10            ER                200          47.635     84.890          -37.255       -0.411386 -49.785125 -24.589875              4193.0 2.407514e-09     7.222542e-09             True
+   final_size     Previous_Day  Weighted_Degree                0.10 Configuration                200          47.635     70.845          -23.210       -0.273680 -34.685125 -11.260000              5414.0 4.265454e-05     4.265454e-05             True
+   final_size     Previous_Day  Weighted_Degree                0.10         DCSBM                200          47.635     74.060          -26.425       -0.311554 -38.345375 -14.629750              4833.0 8.240006e-06     1.648001e-05             True
+peak_infected     Previous_Day  Weighted_Degree                0.10            ER                200           8.165     14.520           -6.355       -0.418443  -8.450125  -4.259875              3850.0 6.494336e-08     1.948301e-07             True
+peak_infected     Previous_Day  Weighted_Degree                0.10 Configuration                200           8.165     12.380           -4.215       -0.297538  -6.145125  -2.260000              5017.5 6.365805e-05     6.365805e-05             True
+peak_infected     Previous_Day  Weighted_Degree                0.10         DCSBM                200           8.165     14.615           -6.450       -0.411474  -8.635000  -4.279750              3673.0 9.273141e-08     1.948301e-07             True
+   final_size     Previous_Day  Weighted_Degree                0.15            ER                200          32.330     69.325          -36.995       -0.499511 -47.080125 -26.719250              3819.0 3.894968e-10     1.168491e-09             True
+   final_size     Previous_Day  Weighted_Degree                0.15 Configuration                200          32.330     48.230          -15.900       -0.257556 -24.270375  -7.224875              5079.5 4.522930e-04     4.522930e-04             True
+   final_size     Previous_Day  Weighted_Degree                0.15         DCSBM                200          32.330     56.170          -23.840       -0.362890 -32.745125 -14.878625              3879.0 1.361802e-06     2.723603e-06             True
+peak_infected     Previous_Day  Weighted_Degree                0.15            ER                200           5.880     11.270           -5.390       -0.457153  -7.020125  -3.755000              3488.5 6.549259e-09     1.964778e-08             True
+peak_infected     Previous_Day  Weighted_Degree                0.15 Configuration                200           5.880      8.615           -2.735       -0.267976  -4.170000  -1.360000              4514.0 7.004673e-04     7.004673e-04             True
+peak_infected     Previous_Day  Weighted_Degree                0.15         DCSBM                200           5.880     10.795           -4.915       -0.414327  -6.545000  -3.235000              3254.0 2.348628e-07     4.697256e-07             True
+   final_size     Previous_Day  Weighted_Degree                0.20            ER                200          22.135     46.760          -24.625       -0.401241 -32.885625 -16.364625              4862.5 2.714487e-06     8.143462e-06             True
+   final_size     Previous_Day  Weighted_Degree                0.20 Configuration                200          22.135     36.575          -14.440       -0.256902 -22.345125  -6.564500              5406.0 3.765529e-03     3.765529e-03             True
+   final_size     Previous_Day  Weighted_Degree                0.20         DCSBM                200          22.135     42.570          -20.435       -0.352897 -28.415000 -12.465000              4116.5 1.359118e-05     2.718235e-05             True
+peak_infected     Previous_Day  Weighted_Degree                0.20            ER                200           4.235      7.190           -2.955       -0.312862  -4.260000  -1.644875              4859.5 1.736431e-04     3.472862e-04             True
+peak_infected     Previous_Day  Weighted_Degree                0.20 Configuration                200           4.235      6.470           -2.235       -0.237804  -3.530000  -0.954875              4417.5 3.613305e-03     3.613305e-03             True
+peak_infected     Previous_Day  Weighted_Degree                0.20         DCSBM                200           4.235      7.305           -3.070       -0.325548  -4.395125  -1.745000              2999.5 3.619905e-05     1.085972e-04             True
+   final_size         Same_Day      Betweenness                0.05            ER                200          66.770    101.545          -34.775       -0.353778 -48.400000 -21.280000              4842.5 1.562642e-08     4.687925e-08             True
+   final_size         Same_Day      Betweenness                0.05         DCSBM                200          66.770     79.605          -12.835       -0.135879 -25.701500  -0.299750              6452.0 2.092864e-02     4.185727e-02             True
+peak_infected         Same_Day      Betweenness                0.05            ER                200          11.860     16.715           -4.855       -0.296481  -7.070125  -2.650000              4966.5 4.629055e-05     1.388717e-04             True
+peak_infected         Same_Day      Betweenness                0.05         DCSBM                200          11.860     15.060           -3.200       -0.187098  -5.545000  -0.795000              5393.5 6.930064e-03     1.386013e-02             True
+   final_size         Same_Day      Betweenness                0.10            ER                200          53.755     79.605          -25.850       -0.287482 -37.965250 -13.454750              6083.0 1.081459e-05     3.244377e-05             True
+   final_size         Same_Day      Betweenness                0.10 Configuration                200          53.755     41.380           12.375        0.182864   3.049375  21.905375              6034.5 9.577490e-03     1.915498e-02             True
+peak_infected         Same_Day      Betweenness                0.10 Configuration                200          10.160      6.810            3.350        0.288814   1.745000   4.955125              4186.0 8.094494e-05     2.428348e-04             True
+   final_size         Same_Day      Betweenness                0.15            ER                200          26.425     45.910          -19.485       -0.298941 -28.410250 -10.260000              5751.0 1.364515e-04     4.093544e-04             True
+   final_size         Same_Day      Betweenness                0.15 Configuration                200          26.425     18.900            7.525        0.154104   0.764750  14.235875              5519.5 2.284581e-02     4.569162e-02             True
+peak_infected         Same_Day      Betweenness                0.15            ER                200           5.005      6.905           -1.900       -0.198960  -3.205000  -0.575000              5858.0 1.139354e-02     2.278708e-02             True
+peak_infected         Same_Day      Betweenness                0.15 Configuration                200           5.005      3.365            1.640        0.217635   0.595000   2.680000              3989.0 4.971798e-03     1.491539e-02             True
+   final_size         Same_Day      Betweenness                0.20            ER                200          19.545     30.560          -11.015       -0.219815 -18.215000  -4.014875              6584.5 7.763364e-03     1.552673e-02             True
+   final_size         Same_Day      Betweenness                0.20 Configuration                200          19.545      9.585            9.960        0.312994   5.699875  14.480125              4468.0 1.073556e-04     3.220667e-04             True
+peak_infected         Same_Day      Betweenness                0.20 Configuration                200           4.045      2.080            1.965        0.367584   1.240000   2.705000              3224.0 4.455491e-06     1.336647e-05             True
+peak_infected         Same_Day      Betweenness                0.20         DCSBM                200           4.045      3.115            0.930        0.153623   0.109875   1.770000              4075.0 2.214164e-02     4.428329e-02             True
+   final_size         Same_Day Community_Bridge                0.05            ER                200          89.680    120.325          -30.645       -0.304448 -44.390625 -16.719875              4666.0 1.521291e-09     4.563874e-09             True
+peak_infected         Same_Day Community_Bridge                0.05            ER                200          15.325     21.065           -5.740       -0.312353  -8.230250  -3.285000              5332.5 2.571777e-05     5.143554e-05             True
+peak_infected         Same_Day Community_Bridge                0.05         DCSBM                200          15.325     20.630           -5.305       -0.310857  -7.625250  -2.974875              4108.0 8.267464e-06     2.480239e-05             True
+   final_size         Same_Day Community_Bridge                0.10            ER                200          70.345     83.660          -13.315       -0.133086 -26.940875   0.180875              6774.0 1.639732e-02     4.919196e-02             True
+peak_infected         Same_Day Community_Bridge                0.10         DCSBM                200          11.600     16.015           -4.415       -0.275063  -6.585000  -2.269500              4262.0 2.060061e-04     6.180182e-04             True
+peak_infected         Same_Day Community_Bridge                0.15         DCSBM                200           9.615     11.770           -2.155       -0.161410  -3.985000  -0.354750              4380.0 1.157793e-02     3.473379e-02             True
+   final_size         Same_Day Community_Bridge                0.20 Configuration                200          49.580     36.300           13.280        0.208684   4.339875  21.960500              5794.5 1.608917e-03     4.826752e-03             True
+peak_infected         Same_Day Community_Bridge                0.20 Configuration                200           8.910      6.360            2.550        0.239170   1.100000   4.040000              5174.5 7.674346e-04     2.302304e-03             True
+   final_size         Same_Day           Degree                0.05            ER                200          66.550    111.840          -45.290       -0.445697 -59.120125 -31.080000              3998.5 3.788991e-11     1.136697e-10             True
+   final_size         Same_Day           Degree                0.05         DCSBM                200          66.550     84.455          -17.905       -0.194791 -30.270250  -5.319500              4980.0 2.376631e-03     4.753263e-03             True
+peak_infected         Same_Day           Degree                0.05            ER                200          10.445     20.235           -9.790       -0.539533 -12.275000  -7.189500              3595.5 1.796015e-11     5.388044e-11             True
+peak_infected         Same_Day           Degree                0.05         DCSBM                200          10.445     15.705           -5.260       -0.327510  -7.530000  -3.030000              3606.5 8.442333e-06     1.688467e-05             True
+   final_size         Same_Day           Degree                0.10            ER                200          35.910     85.325          -49.415       -0.612411 -60.720500 -37.940000              3350.0 7.815420e-14     2.344626e-13             True
+   final_size         Same_Day           Degree                0.10 Configuration                200          35.910     47.445          -11.535       -0.174197 -20.910000  -1.959500              4590.0 1.783652e-02     1.783652e-02             True
+   final_size         Same_Day           Degree                0.10         DCSBM                200          35.910     61.840          -25.930       -0.384917 -35.105500 -16.489875              3328.0 1.840785e-07     3.681571e-07             True
+peak_infected         Same_Day           Degree                0.10            ER                200           5.930     13.500           -7.570       -0.595986  -9.290000  -5.810000              2889.5 4.526022e-13     1.357807e-12             True
+peak_infected         Same_Day           Degree                0.10 Configuration                200           5.930      7.650           -1.720       -0.172493  -3.100125  -0.334875              3671.0 1.680624e-02     1.680624e-02             True
+peak_infected         Same_Day           Degree                0.10         DCSBM                200           5.930     10.365           -4.435       -0.424892  -5.905000  -2.995000              2459.0 3.629646e-08     7.259292e-08             True
+   final_size         Same_Day           Degree                0.15            ER                200          15.410     59.075          -43.665       -0.671807 -52.555000 -34.855000              3340.5 1.461835e-12     4.385506e-12             True
+   final_size         Same_Day           Degree                0.15         DCSBM                200          15.410     33.045          -17.635       -0.387274 -23.900125 -11.194500              2780.5 7.104813e-07     1.420963e-06             True
+peak_infected         Same_Day           Degree                0.15            ER                200           3.030      9.005           -5.975       -0.623569  -7.245125  -4.629875              2797.5 1.211984e-12     3.635953e-12             True
+peak_infected         Same_Day           Degree                0.15         DCSBM                200           3.030      5.560           -2.530       -0.379213  -3.450125  -1.619750              2419.0 1.132513e-06     2.265026e-06             True
+   final_size         Same_Day           Degree                0.20            ER                200           8.520     41.030          -32.510       -0.619893 -39.945375 -25.199750              4085.5 4.019286e-09     1.205786e-08             True
+   final_size         Same_Day           Degree                0.20 Configuration                200           8.520     15.515           -6.995       -0.256147 -10.810000  -3.224875              3383.0 2.671994e-03     5.343987e-03             True
+peak_infected         Same_Day           Degree                0.20            ER                200           2.240      6.350           -4.110       -0.527437  -5.215000  -3.079875              2884.0 2.108539e-09     6.325618e-09             True
+peak_infected         Same_Day           Degree                0.20 Configuration                200           2.240      3.030           -0.790       -0.194731  -1.355000  -0.245000              2373.0 7.121686e-03     1.424337e-02             True
+   final_size         Same_Day           Random                0.05            ER                200          94.750    119.735          -24.985       -0.238829 -39.215250 -10.285000              5061.0 4.901474e-07     1.470442e-06             True
+   final_size         Same_Day           Random                0.05         DCSBM                200          94.750    102.520           -7.770       -0.085796 -20.220250   4.950125              6032.5 2.542663e-03     5.085327e-03             True
+peak_infected         Same_Day           Random                0.05            ER                200          16.315     21.135           -4.820       -0.259867  -7.410125  -2.255000              5906.5 3.189018e-04     6.378036e-04             True
+peak_infected         Same_Day           Random                0.05 Configuration                200          16.315     18.365           -2.050       -0.129670  -4.265125   0.170125              5893.5 3.245169e-02     3.245169e-02             True
+peak_infected         Same_Day           Random                0.05         DCSBM                200          16.315     21.965           -5.650       -0.309528  -8.195125  -3.134875              4800.0 2.363358e-05     7.090074e-05             True
+   final_size         Same_Day           Random                0.10            ER                200          76.060     94.735          -18.675       -0.198114 -31.876125  -5.729375              5971.5 4.392807e-05     1.317842e-04             True
+   final_size         Same_Day           Random                0.10         DCSBM                200          76.060     88.780          -12.720       -0.141285 -25.136000  -0.412625              6175.5 2.505952e-03     5.011905e-03             True
+peak_infected         Same_Day           Random                0.10            ER                200          12.900     16.560           -3.660       -0.219737  -5.980125  -1.379625              5816.5 8.765103e-04     1.753021e-03             True
+peak_infected         Same_Day           Random                0.10         DCSBM                200          12.900     17.935           -5.035       -0.293395  -7.440125  -2.660000              5173.5 4.968709e-05     1.490613e-04             True
+peak_infected         Same_Day           Random                0.15         DCSBM                200          10.260     13.400           -3.140       -0.205339  -5.300000  -1.024750              5628.5 1.464173e-02     4.392520e-02             True
+   final_size         Same_Day           Random                0.20            ER                200          45.125     57.600          -12.475       -0.166578 -23.246750  -1.728875              6276.0 2.008527e-03     5.709516e-03             True
+   final_size         Same_Day           Random                0.20         DCSBM                200          45.125     57.010          -11.885       -0.183484 -20.660375  -3.000000              5758.5 1.903172e-03     5.709516e-03             True
+peak_infected         Same_Day           Random                0.20         DCSBM                200           7.910     10.165           -2.255       -0.187018  -3.900000  -0.604875              5373.5 8.614015e-03     2.584205e-02             True
+   final_size         Same_Day  Weighted_Degree                0.05            ER                200          63.365    103.000          -39.635       -0.416631 -53.002125 -26.594750              4353.5 3.094861e-10     9.284583e-10             True
+peak_infected         Same_Day  Weighted_Degree                0.05            ER                200          10.695     17.410           -6.715       -0.405971  -8.970000  -4.425000              4314.5 1.128723e-07     3.386169e-07             True
+peak_infected         Same_Day  Weighted_Degree                0.05         DCSBM                200          10.695     13.785           -3.090       -0.192701  -5.350250  -0.904875              5004.0 7.537164e-03     1.507433e-02             True
+   final_size         Same_Day  Weighted_Degree                0.10            ER                200          35.160     69.600          -34.440       -0.435652 -45.020000 -23.500000              4497.0 1.806272e-08     5.418816e-08             True
+peak_infected         Same_Day  Weighted_Degree                0.10            ER                200           5.545     11.030           -5.485       -0.452465  -7.155250  -3.865000              3569.0 5.271493e-09     1.581448e-08             True
+   final_size         Same_Day  Weighted_Degree                0.15            ER                200          16.920     41.935          -25.015       -0.436392 -32.985500 -17.324750              4649.5 9.287689e-07     2.786307e-06             True
+peak_infected         Same_Day  Weighted_Degree                0.15            ER                200           3.405      6.405           -3.000       -0.367377  -4.120000  -1.850000              3902.5 3.983797e-06     1.195139e-05             True
+   final_size         Same_Day  Weighted_Degree                0.20            ER                200           5.885     18.710          -12.825       -0.411468 -17.290125  -8.765000              4950.5 3.087254e-04     9.261761e-04             True
+peak_infected         Same_Day  Weighted_Degree                0.20            ER                200           1.720      3.430           -1.710       -0.360916  -2.405000  -1.040000              3538.0 9.375340e-05     2.812602e-04             True
+
+=================================================================
+CHUNK 9B COMPLETE
+=================================================================
+Friedman tests: 80
+Paired Wilcoxon tests: 240
+Significant Friedman tests: 69
+Significant paired comparisons: 156
+
+Output files:
+chunk9_friedman_results.csv
+chunk9_paired_wilcoxon_results.csv
+chunk9_significant_friedman.csv
+chunk9_significant_pairwise.csv
+
+STAT 636 CHUNK 9B COMPLETE
+
+[12/14] Running final_results_integration.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+======================================================================
+STAT 636 FINAL RESULTS INTEGRATION
+======================================================================
+
+All datasets loaded successfully.
+SIR records: 32000
+Summary records: 160
+Best strategy records: 32
+Friedman tests: 80
+Wilcoxon tests: 240
+
+Data validation: PASS
+
+OVERALL MODEL PERFORMANCE
+        model  simulations  mean_final_size  sd_final_size  median_final_size  mean_peak_infected  sd_peak_infected  mean_generations
+Configuration         8000        53.603500      61.025169                5.0            9.615250         10.851875          7.562625
+        DCSBM         8000        63.585625      66.613550               10.0           12.305250         13.111924          7.583500
+           ER         8000        78.357625      71.992337              102.0           13.184375         12.470929          9.616875
+    Empirical         8000        51.660875      59.173958                7.0            8.870875          9.705848          7.746375
+
+EMPIRICAL VS NULL MODEL COMPARISON
+selection_timing         strategy  vaccination_budget    model_null  final_size_difference  peak_difference
+    Previous_Day      Betweenness                0.05 Configuration                -10.660           -3.760
+    Previous_Day      Betweenness                0.10 Configuration                -12.435           -3.275
+    Previous_Day      Betweenness                0.15 Configuration                -10.410           -2.910
+    Previous_Day      Betweenness                0.20 Configuration                 -3.375           -0.755
+    Previous_Day Community_Bridge                0.05 Configuration                  3.745           -1.080
+    Previous_Day Community_Bridge                0.10 Configuration                 13.475            1.515
+    Previous_Day Community_Bridge                0.15 Configuration                 11.895            1.740
+    Previous_Day Community_Bridge                0.20 Configuration                 11.395            1.650
+    Previous_Day           Degree                0.05 Configuration                 -2.105           -2.245
+    Previous_Day           Degree                0.10 Configuration                -14.675           -2.880
+    Previous_Day           Degree                0.15 Configuration                 -5.915           -1.140
+    Previous_Day           Degree                0.20 Configuration                 -3.660           -0.435
+    Previous_Day           Random                0.05 Configuration                 -7.705           -2.905
+    Previous_Day           Random                0.10 Configuration                 -1.590           -0.675
+    Previous_Day           Random                0.15 Configuration                 11.225            1.815
+
+BEST VACCINATION STRATEGIES
+        model selection_timing         strategy  vaccination_budget  simulations  mean_final_size  median_final_size  mean_peak_infected  mean_final_proportion  mean_peak_proportion
+Configuration     Previous_Day           Degree                0.05          200           80.325              124.0              14.700               0.331921              0.060744
+Configuration     Previous_Day Community_Bridge                0.10          200           59.455                5.0              10.660               0.245682              0.044050
+Configuration     Previous_Day           Degree                0.15          200           36.885                2.0               6.305               0.152417              0.026054
+Configuration     Previous_Day           Degree                0.20          200           23.230                2.0               4.060               0.095992              0.016777
+Configuration         Same_Day           Degree                0.05          200           69.775               99.5              12.290               0.288326              0.050785
+Configuration         Same_Day  Weighted_Degree                0.10          200           30.770                2.0               5.295               0.127149              0.021880
+Configuration         Same_Day  Weighted_Degree                0.15          200           16.700                2.0               3.080               0.069008              0.012727
+Configuration         Same_Day  Weighted_Degree                0.20          200            6.145                1.0               1.675               0.025393              0.006921
+        DCSBM     Previous_Day  Weighted_Degree                0.05          200           90.475              143.0              18.360               0.373864              0.075868
+        DCSBM     Previous_Day           Degree                0.10          200           71.680              117.0              13.760               0.296198              0.056860
+        DCSBM     Previous_Day           Degree                0.15          200           52.615                4.0               9.250               0.217417              0.038223
+        DCSBM     Previous_Day           Degree                0.20          200           33.080                2.0               5.955               0.136694              0.024607
+        DCSBM         Same_Day  Weighted_Degree                0.05          200           74.810              106.0              13.785               0.309132              0.056963
+        DCSBM         Same_Day  Weighted_Degree                0.10          200           44.265                3.0               7.230               0.182913              0.029876
+        DCSBM         Same_Day  Weighted_Degree                0.15          200           21.765                2.0               3.875               0.089938              0.016012
+        DCSBM         Same_Day  Weighted_Degree                0.20          200            7.275                1.0               1.800               0.030062              0.007438
+           ER     Previous_Day           Degree                0.05          200          109.495              154.5              19.360               0.452459              0.080000
+           ER     Previous_Day  Weighted_Degree                0.10          200           84.890              132.0              14.520               0.350785              0.060000
+           ER     Previous_Day      Betweenness                0.15          200           68.770               98.0              11.360               0.284174              0.046942
+           ER     Previous_Day  Weighted_Degree                0.20          200           46.760                3.0               7.190               0.193223              0.029711
+           ER         Same_Day      Betweenness                0.05          200          101.545              149.0              16.715               0.419607              0.069070
+           ER         Same_Day  Weighted_Degree                0.10          200           69.600               86.5              11.030               0.287603              0.045579
+           ER         Same_Day  Weighted_Degree                0.15          200           41.935                5.0               6.405               0.173285              0.026467
+           ER         Same_Day  Weighted_Degree                0.20          200           18.710                2.0               3.430               0.077314              0.014174
+    Empirical     Previous_Day  Weighted_Degree                0.05          200           77.400              111.0              13.400               0.319835              0.055372
+    Empirical     Previous_Day           Degree                0.10          200           46.850                7.0               7.360               0.193595              0.030413
+    Empirical     Previous_Day           Degree                0.15          200           30.970                3.0               5.165               0.127975              0.021343
+    Empirical     Previous_Day           Degree                0.20          200           19.570                2.0               3.625               0.080868              0.014979
+    Empirical         Same_Day  Weighted_Degree                0.05          200           63.365               49.0              10.695               0.261839              0.044194
+    Empirical         Same_Day  Weighted_Degree                0.10          200           35.160                3.0               5.545               0.145289              0.022913
+    Empirical         Same_Day           Degree                0.15          200           15.410                2.0               3.030               0.063678              0.012521
+    Empirical         Same_Day  Weighted_Degree                0.20          200            5.885                2.0               1.720               0.024318              0.007107
+
+STATISTICAL SIGNIFICANCE
+Significant Friedman tests: 69
+Significant Wilcoxon tests: 156
+
+======================================================================
+CHUNK 10 COMPLETE
+======================================================================
+
+Generated tables:
+chunk10_model_performance.csv
+chunk10_strategy_performance.csv
+chunk10_empirical_null_comparison.csv
+chunk10_timing_comparison.csv
+chunk10_best_strategies.csv
+
+Generated figures:
+chunk10_model_performance.png
+chunk10_vaccination_budget_comparison.png
+chunk10_vaccination_timing.png
+
+Final report:
+C:\Users\KyleD\PycharmProjects\stat_project\results\chunk10_final_research_report.txt
+
+[13/14] Running chunk11_final_interpretation.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+======================================================================
+STAT 636 CHUNK 11: FINAL RESEARCH INTERPRETATION
+======================================================================
+
+All datasets loaded.
+model_performance: (4, 8)
+strategy_performance: (160, 10)
+timing_comparison: (80, 8)
+empirical_null: (120, 19)
+friedman: (80, 10)
+wilcoxon: (240, 16)
+
+Data validation: PASS
+
+======================================================================
+NETWORK MODEL INTERPRETATION
+======================================================================
+
+Lowest average outbreak model: Empirical
+Mean final size: 51.6609
+
+Highest average outbreak model: ER
+Mean final size: 78.3576
+
+======================================================================
+VACCINATION STRATEGY INTERPRETATION
+======================================================================
+        model selection_timing  vaccination_budget         strategy  mean_final_size
+    Empirical         Same_Day                0.20  Weighted_Degree            5.885
+Configuration         Same_Day                0.20  Weighted_Degree            6.145
+        DCSBM         Same_Day                0.20  Weighted_Degree            7.275
+    Empirical         Same_Day                0.15           Degree           15.410
+Configuration         Same_Day                0.15  Weighted_Degree           16.700
+           ER         Same_Day                0.20  Weighted_Degree           18.710
+    Empirical     Previous_Day                0.20           Degree           19.570
+        DCSBM         Same_Day                0.15  Weighted_Degree           21.765
+Configuration     Previous_Day                0.20           Degree           23.230
+Configuration         Same_Day                0.10  Weighted_Degree           30.770
+    Empirical     Previous_Day                0.15           Degree           30.970
+        DCSBM     Previous_Day                0.20           Degree           33.080
+    Empirical         Same_Day                0.10  Weighted_Degree           35.160
+Configuration     Previous_Day                0.15           Degree           36.885
+           ER         Same_Day                0.15  Weighted_Degree           41.935
+        DCSBM         Same_Day                0.10  Weighted_Degree           44.265
+           ER     Previous_Day                0.20  Weighted_Degree           46.760
+    Empirical     Previous_Day                0.10           Degree           46.850
+        DCSBM     Previous_Day                0.15           Degree           52.615
+Configuration     Previous_Day                0.10 Community_Bridge           59.455
+    Empirical         Same_Day                0.05  Weighted_Degree           63.365
+           ER     Previous_Day                0.15      Betweenness           68.770
+           ER         Same_Day                0.10  Weighted_Degree           69.600
+Configuration         Same_Day                0.05           Degree           69.775
+        DCSBM     Previous_Day                0.10           Degree           71.680
+        DCSBM         Same_Day                0.05  Weighted_Degree           74.810
+    Empirical     Previous_Day                0.05  Weighted_Degree           77.400
+Configuration     Previous_Day                0.05           Degree           80.325
+           ER     Previous_Day                0.10  Weighted_Degree           84.890
+        DCSBM     Previous_Day                0.05  Weighted_Degree           90.475
+           ER         Same_Day                0.05      Betweenness          101.545
+           ER     Previous_Day                0.05           Degree          109.495
+
+======================================================================
+VACCINATION TIMING
+======================================================================
+        model         strategy  vaccination_budget  mean_final_size_Previous_Day  mean_final_size_Same_Day  mean_peak_infected_Previous_Day  mean_peak_infected_Same_Day  timing_final_size_difference
+Configuration      Betweenness                0.05                        90.440                    76.105                           16.825                       12.960                       -14.335
+Configuration      Betweenness                0.10                        74.945                    41.380                           13.770                        6.810                       -33.565
+Configuration      Betweenness                0.15                        54.565                    18.900                            9.770                        3.365                       -35.665
+Configuration      Betweenness                0.20                        34.715                     9.585                            6.195                        2.080                       -25.130
+Configuration Community_Bridge                0.05                        83.895                    86.865                           15.740                       16.040                         2.970
+Configuration Community_Bridge                0.10                        59.455                    66.920                           10.660                       12.520                         7.465
+Configuration Community_Bridge                0.15                        45.685                    53.265                            7.850                        9.285                         7.580
+Configuration Community_Bridge                0.20                        33.510                    36.300                            6.180                        6.360                         2.790
+Configuration           Degree                0.05                        80.325                    69.775                           14.700                       12.290                       -10.550
+Configuration           Degree                0.10                        61.525                    47.445                           10.240                        7.650                       -14.080
+Configuration           Degree                0.15                        36.885                    17.530                            6.305                        3.225                       -19.355
+Configuration           Degree                0.20                        23.230                    15.515                            4.060                        3.030                        -7.715
+Configuration           Random                0.05                        93.990                    97.315                           17.900                       18.365                         3.325
+Configuration           Random                0.10                        78.430                    76.605                           14.235                       14.155                        -1.825
+Configuration           Random                0.15                        55.330                    60.630                            9.475                       10.925                         5.300
+Configuration           Random                0.20                        42.920                    43.930                            7.270                        7.555                         1.010
+Configuration  Weighted_Degree                0.05                        91.695                    75.270                           16.955                       12.350                       -16.425
+Configuration  Weighted_Degree                0.10                        70.845                    30.770                           12.380                        5.295                       -40.075
+Configuration  Weighted_Degree                0.15                        48.230                    16.700                            8.615                        3.080                       -31.530
+Configuration  Weighted_Degree                0.20                        36.575                     6.145                            6.470                        1.675                       -30.430
+        DCSBM      Betweenness                0.05                        99.665                    79.605                           20.420                       15.060                       -20.060
+        DCSBM      Betweenness                0.10                        79.190                    55.180                           15.240                        9.030                       -24.010
+        DCSBM      Betweenness                0.15                        52.790                    29.410                            9.970                        4.855                       -23.380
+        DCSBM      Betweenness                0.20                        41.940                    16.070                            7.745                        3.115                       -25.870
+        DCSBM Community_Bridge                0.05                       100.410                    98.200                           21.620                       20.630                        -2.210
+        DCSBM Community_Bridge                0.10                        84.000                    80.380                           16.865                       16.015                        -3.620
+        DCSBM Community_Bridge                0.15                        68.405                    61.435                           13.475                       11.770                        -6.970
+        DCSBM Community_Bridge                0.20                        57.540                    48.735                           10.585                        9.215                        -8.805
+        DCSBM           Degree                0.05                        95.650                    84.455                           19.170                       15.705                       -11.195
+        DCSBM           Degree                0.10                        71.680                    61.840                           13.760                       10.365                        -9.840
+        DCSBM           Degree                0.15                        52.615                    33.045                            9.250                        5.560                       -19.570
+        DCSBM           Degree                0.20                        33.080                    13.950                            5.955                        2.700                       -19.130
+        DCSBM           Random                0.05                       106.135                   102.520                           22.605                       21.965                        -3.615
+        DCSBM           Random                0.10                        87.230                    88.780                           17.770                       17.935                         1.550
+        DCSBM           Random                0.15                        67.615                    68.815                           12.805                       13.400                         1.200
+        DCSBM           Random                0.20                        54.660                    57.010                            9.725                       10.165                         2.350
+        DCSBM  Weighted_Degree                0.05                        90.475                    74.810                           18.360                       13.785                       -15.665
+        DCSBM  Weighted_Degree                0.10                        74.060                    44.265                           14.615                        7.230                       -29.795
+        DCSBM  Weighted_Degree                0.15                        56.170                    21.765                           10.795                        3.875                       -34.405
+        DCSBM  Weighted_Degree                0.20                        42.570                     7.275                            7.305                        1.800                       -35.295
+           ER      Betweenness                0.05                       121.045                   101.545                           22.125                       16.715                       -19.500
+           ER      Betweenness                0.10                        91.575                    79.605                           15.600                       12.310                       -11.970
+           ER      Betweenness                0.15                        68.770                    45.910                           11.360                        6.905                       -22.860
+           ER      Betweenness                0.20                        53.490                    30.560                            8.380                        4.610                       -22.930
+           ER Community_Bridge                0.05                       119.660                   120.325                           21.975                       21.065                         0.665
+           ER Community_Bridge                0.10                        92.205                    83.660                           15.890                       13.915                        -8.545
+           ER Community_Bridge                0.15                        84.850                    57.630                           13.635                        9.000                       -27.220
+           ER Community_Bridge                0.20                        56.830                    50.595                            8.910                        7.900                        -6.235
+           ER           Degree                0.05                       109.495                   111.840                           19.360                       20.235                         2.345
+           ER           Degree                0.10                        93.775                    85.325                           15.795                       13.500                        -8.450
+           ER           Degree                0.15                        74.365                    59.075                           12.540                        9.005                       -15.290
+           ER           Degree                0.20                        55.275                    41.030                            8.465                        6.350                       -14.245
+           ER           Random                0.05                       117.765                   119.735                           21.075                       21.135                         1.970
+           ER           Random                0.10                       100.250                    94.735                           17.510                       16.560                        -5.515
+           ER           Random                0.15                        79.540                    69.245                           13.195                       11.135                       -10.295
+           ER           Random                0.20                        54.320                    57.600                            8.380                        9.135                         3.280
+           ER  Weighted_Degree                0.05                       118.460                   103.000                           22.450                       17.410                       -15.460
+           ER  Weighted_Degree                0.10                        84.890                    69.600                           14.520                       11.030                       -15.290
+           ER  Weighted_Degree                0.15                        69.325                    41.935                           11.270                        6.405                       -27.390
+           ER  Weighted_Degree                0.20                        46.760                    18.710                            7.190                        3.430                       -28.050
+    Empirical      Betweenness                0.05                        79.780                    66.770                           13.065                       11.860                       -13.010
+    Empirical      Betweenness                0.10                        62.510                    53.755                           10.495                       10.160                        -8.755
+    Empirical      Betweenness                0.15                        44.155                    26.425                            6.860                        5.005                       -17.730
+    Empirical      Betweenness                0.20                        31.340                    19.545                            5.440                        4.045                       -11.795
+    Empirical Community_Bridge                0.05                        87.640                    89.680                           14.660                       15.325                         2.040
+    Empirical Community_Bridge                0.10                        72.930                    70.345                           12.175                       11.600                        -2.585
+    Empirical Community_Bridge                0.15                        57.580                    54.975                            9.590                        9.615                        -2.605
+    Empirical Community_Bridge                0.20                        44.905                    49.580                            7.830                        8.910                         4.675
+    Empirical           Degree                0.05                        78.220                    66.550                           12.455                       10.445                       -11.670
+    Empirical           Degree                0.10                        46.850                    35.910                            7.360                        5.930                       -10.940
+    Empirical           Degree                0.15                        30.970                    15.410                            5.165                        3.030                       -15.560
+    Empirical           Degree                0.20                        19.570                     8.520                            3.625                        2.240                       -11.050
+    Empirical           Random                0.05                        86.285                    94.750                           14.995                       16.315                         8.465
+    Empirical           Random                0.10                        76.840                    76.060                           13.560                       12.900                        -0.780
+    Empirical           Random                0.15                        66.555                    61.505                           11.290                       10.260                        -5.050
+    Empirical           Random                0.20                        44.570                    45.125                            7.675                        7.910                         0.555
+    Empirical  Weighted_Degree                0.05                        77.400                    63.365                           13.400                       10.695                       -14.035
+    Empirical  Weighted_Degree                0.10                        47.635                    35.160                            8.165                        5.545                       -12.475
+    Empirical  Weighted_Degree                0.15                        32.330                    16.920                            5.880                        3.405                       -15.410
+    Empirical  Weighted_Degree                0.20                        22.135                     5.885                            4.235                        1.720                       -16.250
+
+======================================================================
+STATISTICAL SIGNIFICANCE
+======================================================================
+
+Significant Friedman tests: 69
+Significant Wilcoxon comparisons: 156
+
+======================================================================
+CHUNK 11 COMPLETE
+======================================================================
+
+Generated files:
+- chunk11_best_strategies.csv
+- chunk11_significant_friedman.csv
+- chunk11_significant_wilcoxon.csv
+- chunk11_final_interpretation.txt
+
+Final report saved to:
+C:\Users\KyleD\PycharmProjects\stat_project\results\chunk11_final_interpretation.txt
+
+[14/14] Running chunk12_final_research_report.py
+STAT 636 configuration loaded.
+Project directory: C:\Users\KyleD\PycharmProjects\stat_project
+Data directory: C:\Users\KyleD\PycharmProjects\stat_project\data
+Results directory: C:\Users\KyleD\PycharmProjects\stat_project\results
+======================================================================
+STAT 636: CHUNK 12 FINAL RESEARCH REPORT
+======================================================================
+
+Project directory:
+C:\Users\KyleD\PycharmProjects\stat_project
+
+Results directory:
+C:\Users\KyleD\PycharmProjects\stat_project\results
+
+Chunk 12 output directory:
+C:\Users\KyleD\PycharmProjects\stat_project\results\chunk12_final_report
+
+Initialization complete.
+
+======================================================================
+SECTION 2: LOADING RESEARCH DATASETS
+======================================================================
+Loaded chunk10_model_performance.csv: (4, 8)
+Loaded chunk10_strategy_performance.csv: (160, 10)
+Loaded chunk10_timing_comparison.csv: (80, 8)
+Loaded chunk10_empirical_null_comparison.csv: (120, 19)
+Loaded chunk11_best_strategies.csv: (32, 10)
+Loaded chunk9_friedman_results.csv: (80, 10)
+Loaded chunk9_paired_wilcoxon_results.csv: (240, 16)
+
+All research datasets loaded successfully.
+SIR-related strategy records: 160
+Friedman tests: 80
+Wilcoxon tests: 240
+
+======================================================================
+SECTION 3: DATA VALIDATION
+======================================================================
+model_performance: 4 records | Missing: 0
+strategy_performance: 160 records | Missing: 0
+timing_comparison: 80 records | Missing: 0
+empirical_null: 120 records | Missing: 0
+best_strategies: 32 records | Missing: 0
+friedman: 80 records | Missing: 0
+wilcoxon: 240 records | Missing: 0
+
+Data validation: PASS
+
+======================================================================
+OVERALL NETWORK MODEL PERFORMANCE
+======================================================================
+        model  simulations  mean_final_size  sd_final_size  median_final_size  mean_peak_infected  sd_peak_infected  mean_generations
+    Empirical         8000        51.660875      59.173958                7.0            8.870875          9.705848          7.746375
+Configuration         8000        53.603500      61.025169                5.0            9.615250         10.851875          7.562625
+        DCSBM         8000        63.585625      66.613550               10.0           12.305250         13.111924          7.583500
+           ER         8000        78.357625      71.992337              102.0           13.184375         12.470929          9.616875
+
+Lowest outbreak model:
+Empirical
+Mean final size: 51.6609
+
+Highest outbreak model:
+ER
+Mean final size: 78.3576
+
+======================================================================
+BEST VACCINATION STRATEGIES
+======================================================================
+        model selection_timing         strategy  vaccination_budget  simulations  mean_final_size  median_final_size  mean_peak_infected  mean_final_proportion  mean_peak_proportion
+    Empirical         Same_Day  Weighted_Degree                0.20          200            5.885                2.0               1.720               0.024318              0.007107
+Configuration         Same_Day  Weighted_Degree                0.20          200            6.145                1.0               1.675               0.025393              0.006921
+        DCSBM         Same_Day  Weighted_Degree                0.20          200            7.275                1.0               1.800               0.030062              0.007438
+    Empirical         Same_Day           Degree                0.15          200           15.410                2.0               3.030               0.063678              0.012521
+Configuration         Same_Day  Weighted_Degree                0.15          200           16.700                2.0               3.080               0.069008              0.012727
+           ER         Same_Day  Weighted_Degree                0.20          200           18.710                2.0               3.430               0.077314              0.014174
+    Empirical     Previous_Day           Degree                0.20          200           19.570                2.0               3.625               0.080868              0.014979
+        DCSBM         Same_Day  Weighted_Degree                0.15          200           21.765                2.0               3.875               0.089938              0.016012
+Configuration     Previous_Day           Degree                0.20          200           23.230                2.0               4.060               0.095992              0.016777
+Configuration         Same_Day  Weighted_Degree                0.10          200           30.770                2.0               5.295               0.127149              0.021880
+    Empirical     Previous_Day           Degree                0.15          200           30.970                3.0               5.165               0.127975              0.021343
+        DCSBM     Previous_Day           Degree                0.20          200           33.080                2.0               5.955               0.136694              0.024607
+    Empirical         Same_Day  Weighted_Degree                0.10          200           35.160                3.0               5.545               0.145289              0.022913
+Configuration     Previous_Day           Degree                0.15          200           36.885                2.0               6.305               0.152417              0.026054
+           ER         Same_Day  Weighted_Degree                0.15          200           41.935                5.0               6.405               0.173285              0.026467
+        DCSBM         Same_Day  Weighted_Degree                0.10          200           44.265                3.0               7.230               0.182913              0.029876
+           ER     Previous_Day  Weighted_Degree                0.20          200           46.760                3.0               7.190               0.193223              0.029711
+    Empirical     Previous_Day           Degree                0.10          200           46.850                7.0               7.360               0.193595              0.030413
+        DCSBM     Previous_Day           Degree                0.15          200           52.615                4.0               9.250               0.217417              0.038223
+Configuration     Previous_Day Community_Bridge                0.10          200           59.455                5.0              10.660               0.245682              0.044050
+    Empirical         Same_Day  Weighted_Degree                0.05          200           63.365               49.0              10.695               0.261839              0.044194
+           ER     Previous_Day      Betweenness                0.15          200           68.770               98.0              11.360               0.284174              0.046942
+           ER         Same_Day  Weighted_Degree                0.10          200           69.600               86.5              11.030               0.287603              0.045579
+Configuration         Same_Day           Degree                0.05          200           69.775               99.5              12.290               0.288326              0.050785
+        DCSBM     Previous_Day           Degree                0.10          200           71.680              117.0              13.760               0.296198              0.056860
+        DCSBM         Same_Day  Weighted_Degree                0.05          200           74.810              106.0              13.785               0.309132              0.056963
+    Empirical     Previous_Day  Weighted_Degree                0.05          200           77.400              111.0              13.400               0.319835              0.055372
+Configuration     Previous_Day           Degree                0.05          200           80.325              124.0              14.700               0.331921              0.060744
+           ER     Previous_Day  Weighted_Degree                0.10          200           84.890              132.0              14.520               0.350785              0.060000
+        DCSBM     Previous_Day  Weighted_Degree                0.05          200           90.475              143.0              18.360               0.373864              0.075868
+           ER         Same_Day      Betweenness                0.05          200          101.545              149.0              16.715               0.419607              0.069070
+           ER     Previous_Day           Degree                0.05          200          109.495              154.5              19.360               0.452459              0.080000
+
+======================================================================
+SECTION 4: STATISTICAL ANALYSIS
+======================================================================
+
+Friedman tests:
+Total: 80
+Significant after Holm adjustment: 69
+      outcome selection_timing         strategy  vaccination_budget  paired_replicates  friedman_statistic      p_value  kendalls_w  holm_adjusted_p  significant_005
+   final_size     Previous_Day      Betweenness                0.05                200           95.473768 1.460482e-20    0.159123     5.841929e-19             True
+peak_infected     Previous_Day      Betweenness                0.05                200           48.378672 1.768828e-10    0.080631     6.190899e-09             True
+   final_size     Previous_Day      Betweenness                0.10                200           40.747994 7.395536e-09    0.067913     1.627018e-07             True
+peak_infected     Previous_Day      Betweenness                0.10                200           25.295987 1.338943e-05    0.042160     2.543991e-04             True
+   final_size     Previous_Day      Betweenness                0.15                200           24.852179 1.657926e-05    0.041420     2.486889e-04             True
+   final_size     Previous_Day      Betweenness                0.20                200           11.664648 8.624839e-03    0.019441     4.312419e-02             True
+   final_size     Previous_Day Community_Bridge                0.05                200           71.808947 1.749206e-15    0.119682     5.772379e-14             True
+peak_infected     Previous_Day Community_Bridge                0.05                200           43.445172 1.979629e-09    0.072409     6.334811e-08             True
+   final_size     Previous_Day Community_Bridge                0.10                200           55.454496 5.492215e-12    0.092424     1.427976e-10             True
+peak_infected     Previous_Day Community_Bridge                0.10                200           42.871404 2.620681e-09    0.071452     8.124111e-08             True
+   final_size     Previous_Day Community_Bridge                0.15                200           56.826180 2.799087e-12    0.094710     7.557534e-11             True
+peak_infected     Previous_Day Community_Bridge                0.15                200           27.866851 3.873426e-06    0.046445     9.296223e-05             True
+   final_size     Previous_Day Community_Bridge                0.20                200           21.003252 1.051126e-04    0.035005     1.366464e-03             True
+peak_infected     Previous_Day Community_Bridge                0.20                200           15.715503 1.296899e-03    0.026193     1.426589e-02             True
+   final_size     Previous_Day           Degree                0.05                200           85.647446 1.884410e-18    0.142746     7.349198e-17             True
+peak_infected     Previous_Day           Degree                0.05                200           56.931663 2.657665e-12    0.094886     1.009913e-10             True
+   final_size     Previous_Day           Degree                0.10                200           66.588398 2.293684e-14    0.110981     7.110421e-13             True
+peak_infected     Previous_Day           Degree                0.10                200           51.365473 4.089081e-11    0.085609     1.472069e-09             True
+   final_size     Previous_Day           Degree                0.15                200           61.407386 2.941122e-13    0.102346     8.529255e-12             True
+peak_infected     Previous_Day           Degree                0.15                200           53.398154 1.507848e-11    0.088997     5.579037e-10             True
+   final_size     Previous_Day           Degree                0.20                200           41.385841 5.416045e-09    0.068976     1.299851e-07             True
+peak_infected     Previous_Day           Degree                0.20                200           36.257738 6.605265e-08    0.060430     1.981579e-06             True
+   final_size     Previous_Day           Random                0.05                200           69.746057 4.837647e-15    0.116243     1.548047e-13             True
+peak_infected     Previous_Day           Random                0.05                200           44.130130 1.416115e-09    0.073550     4.673178e-08             True
+   final_size     Previous_Day           Random                0.10                200           41.019017 6.478752e-09    0.068365     1.490113e-07             True
+peak_infected     Previous_Day           Random                0.10                200           19.860227 1.814482e-04    0.033100     2.721723e-03             True
+   final_size     Previous_Day           Random                0.15                200           30.226931 1.236394e-06    0.050378     1.978230e-05             True
+peak_infected     Previous_Day           Random                0.15                200           13.495050 3.679638e-03    0.022492     3.311674e-02             True
+   final_size     Previous_Day           Random                0.20                200           11.602468 8.876743e-03    0.019337     4.312419e-02             True
+   final_size     Previous_Day  Weighted_Degree                0.05                200           82.516518 8.854150e-18    0.137528     3.364577e-16             True
+peak_infected     Previous_Day  Weighted_Degree                0.05                200           46.532503 4.369815e-10    0.077554     1.485737e-08             True
+   final_size     Previous_Day  Weighted_Degree                0.10                200           40.049442 1.040104e-08    0.066749     2.184218e-07             True
+peak_infected     Previous_Day  Weighted_Degree                0.10                200           26.584257 7.195404e-06    0.044307     1.511035e-04             True
+   final_size     Previous_Day  Weighted_Degree                0.15                200           34.983471 1.228085e-07    0.058306     2.333361e-06             True
+peak_infected     Previous_Day  Weighted_Degree                0.15                200           22.100694 6.215862e-05    0.036834     1.056696e-03             True
+   final_size         Same_Day      Betweenness                0.05                200           62.182540 2.008308e-13    0.103638     6.024925e-12             True
+peak_infected         Same_Day      Betweenness                0.05                200           27.093326 5.627999e-06    0.045156     1.294440e-04             True
+   final_size         Same_Day      Betweenness                0.10                200           44.295918 1.305803e-09    0.073827     3.264507e-08             True
+peak_infected         Same_Day      Betweenness                0.10                200           25.611205 1.150304e-05    0.042685     2.300607e-04             True
+   final_size         Same_Day      Betweenness                0.15                200           19.423248 2.234806e-04    0.032372     2.681767e-03             True
+peak_infected         Same_Day      Betweenness                0.15                200           16.880838 7.477628e-04    0.028135     9.720916e-03             True
+   final_size         Same_Day      Betweenness                0.20                200           23.369222 3.382330e-05    0.038949     4.735261e-04             True
+peak_infected         Same_Day      Betweenness                0.20                200           22.632432 4.817140e-05    0.037721     8.670851e-04             True
+   final_size         Same_Day Community_Bridge                0.05                200           73.900690 6.232971e-16    0.123168     2.243870e-14             True
+peak_infected         Same_Day Community_Bridge                0.05                200           35.508493 9.512318e-08    0.059181     2.663449e-06             True
+   final_size         Same_Day Community_Bridge                0.10                200           18.966969 2.777322e-04    0.031612     2.976473e-03             True
+peak_infected         Same_Day Community_Bridge                0.10                200           16.697037 8.157194e-04    0.027828     9.788633e-03             True
+   final_size         Same_Day           Degree                0.05                200           79.863837 3.282786e-17    0.133106     1.214631e-15             True
+peak_infected         Same_Day           Degree                0.05                200           57.772753 1.757676e-12    0.096288     6.854936e-11             True
+   final_size         Same_Day           Degree                0.10                200           73.752623 6.705380e-16    0.122921     2.346883e-14             True
+peak_infected         Same_Day           Degree                0.10                200           60.801286 3.963140e-13    0.101335     1.585256e-11             True
+   final_size         Same_Day           Degree                0.15                200           31.599419 6.356189e-07    0.052666     1.080552e-05             True
+peak_infected         Same_Day           Degree                0.15                200           30.788882 9.416535e-07    0.051315     2.448299e-05             True
+   final_size         Same_Day           Degree                0.20                200           18.536600 3.408453e-04    0.030894     3.067608e-03             True
+peak_infected         Same_Day           Degree                0.20                200           19.028405 2.697263e-04    0.031714     3.776168e-03             True
+   final_size         Same_Day           Random                0.05                200           73.352381 8.169286e-16    0.122254     2.777557e-14             True
+peak_infected         Same_Day           Random                0.05                200           35.778502 8.340928e-08    0.059631     2.418869e-06             True
+   final_size         Same_Day           Random                0.10                200           32.624217 3.865442e-07    0.054374     6.957796e-06             True
+peak_infected         Same_Day           Random                0.10                200           26.789050 6.518365e-06    0.044648     1.434040e-04             True
+   final_size         Same_Day           Random                0.15                200           13.594350 3.512687e-03    0.022657     2.107612e-02             True
+   final_size         Same_Day           Random                0.20                200           17.691438 5.092325e-04    0.029486     4.073860e-03             True
+   final_size         Same_Day  Weighted_Degree                0.05                200           58.992525 9.648452e-13    0.098321     2.701566e-11             True
+peak_infected         Same_Day  Weighted_Degree                0.05                200           29.793277 1.525374e-06    0.049655     3.813436e-05             True
+   final_size         Same_Day  Weighted_Degree                0.10                200           37.495922 3.613659e-08    0.062493     7.227319e-07             True
+peak_infected         Same_Day  Weighted_Degree                0.10                200           32.634706 3.845807e-07    0.054391     1.038368e-05             True
+   final_size         Same_Day  Weighted_Degree                0.15                200           19.021703 2.705884e-04    0.031703     2.976473e-03             True
+peak_infected         Same_Day  Weighted_Degree                0.15                200           21.241023 9.381323e-05    0.035402     1.501012e-03             True
+   final_size         Same_Day  Weighted_Degree                0.20                200           15.216696 1.640525e-03    0.025361     1.148368e-02             True
+peak_infected         Same_Day  Weighted_Degree                0.20                200           15.291695 1.583604e-03    0.025486     1.583604e-02             True
+
+Paired Wilcoxon tests:
+Total: 240
+Significant after Holm adjustment: 156
+
+Average Same-Day minus Previous-Day difference:
+-11.7941
+
+Interpretation:
+Same-Day selection had a lower average final outbreak size across the analyzed conditions.
+
+======================================================================
+SECTION 5: EXPORTING RESEARCH TABLES
+======================================================================
+Saved: final_model_performance.csv
+Saved: final_strategy_performance.csv
+Saved: final_timing_comparison.csv
+Saved: final_empirical_null_comparison.csv
+Saved: final_friedman_tests.csv
+Saved: final_wilcoxon_tests.csv
+Saved: significant_friedman_results.csv
+Saved: significant_wilcoxon_results.csv
+Saved: best_strategy_by_condition.csv
+
+All final research tables exported.
+
+======================================================================
+SECTION 6: GENERATING FINAL FIGURES
+======================================================================
+
+Four research figures generated successfully.
+
+======================================================================
+SECTION 7: GENERATING RESEARCH DOCUMENTS
+======================================================================
+
+Research documents generated successfully.
+
+======================================================================
+SECTION 8: FINAL REPORT INTEGRATION
+======================================================================
+Final research report saved.
+
+======================================================================
+STAT 636 CHUNK 12 COMPLETE
+======================================================================
+
+Research findings:
+Lowest outbreak model: Empirical (51.6609)
+Highest outbreak model: ER (78.3576)
+Significant Friedman tests: 69
+Significant Wilcoxon tests: 156
+
+Final report:
+C:\Users\KyleD\PycharmProjects\stat_project\results\chunk12_final_report\STAT636_FINAL_RESEARCH_REPORT.txt
+
+Generated figures:
+figure1_model_comparison.png
+figure2_vaccination_budget.png
+figure3_vaccination_timing.png
+figure4_statistical_significance.png
+
+Generated tables:
+best_strategy_by_condition.csv
+final_empirical_null_comparison.csv
+final_friedman_tests.csv
+final_model_performance.csv
+final_strategy_performance.csv
+final_timing_comparison.csv
+final_wilcoxon_tests.csv
+significant_friedman_results.csv
+significant_wilcoxon_results.csv
+
+======================================================================
+STAT 636 CHUNK 12 COMPLETE
+======================================================================

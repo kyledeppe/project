@@ -1,0 +1,32 @@
+STAT 636 FINAL RESEARCH INTERPRETATION
+======================================================================
+
+1. NETWORK MODEL FINDINGS
+The model with the lowest mean final outbreak size was Empirical, with a mean final size of 51.6609.
+The highest mean final outbreak size was observed under ER, with a mean of 78.3576.
+
+2. VACCINATION STRATEGIES
+Vaccination effectiveness varied across network models, vaccination budgets, and selection timings.
+No single strategy should be assumed optimal across all experimental conditions.
+
+3. STATISTICAL FINDINGS
+There were 69 statistically significant Friedman tests after Holm correction.
+There were 156 statistically significant paired Wilcoxon comparisons after Holm correction.
+
+4. INTERPRETATION
+The results suggest that network structure and vaccination strategy can influence simulated epidemic outcomes.
+The Configuration model generated the smallest average outbreak in the overall model comparison. However, this does not establish that degree preservation alone explains the difference.
+
+5. LIMITATIONS
+- The analysis uses simulated epidemic outcomes.
+- The null models are approximations of the empirical network.
+- The DCSBM implementation is an approximate generative model.
+- Results depend on the specified transmission and vaccination assumptions.
+- Statistical significance does not necessarily imply substantial practical importance.
+- Findings should not automatically be generalized to other populations.
+
+6. CONCLUSION
+This study demonstrates the value of comparing empirical social networks with alternative network null models when evaluating vaccination strategies through epidemic simulation.
+The findings emphasize the importance of network structure, vaccination timing, and intervention strategy in interpreting simulated epidemic outcomes.
+
+END OF INTERPRETATION

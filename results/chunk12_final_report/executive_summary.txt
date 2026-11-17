@@ -1,0 +1,55 @@
+
+STAT 636
+EXECUTIVE SUMMARY
+
+Research Topic:
+Network Structure and Vaccination Strategies in Epidemic
+Spread on Weighted Social Networks.
+
+NETWORK MODEL FINDINGS
+
+The Configuration model demonstrated the lowest average
+epidemic final size.
+
+Mean final outbreak size:
+51.6609
+
+The ER model demonstrated the highest
+average epidemic final size.
+
+Mean final outbreak size:
+78.3576
+
+VACCINATION STRATEGIES
+
+Five vaccination strategies were investigated:
+
+1. Random
+2. Degree
+3. Weighted Degree
+4. Betweenness
+5. Community Bridge
+
+Vaccination budgets ranged from 5% to 20%.
+
+VACCINATION TIMING
+
+Average Same-Day minus Previous-Day final-size difference:
+
+-11.7941
+
+STATISTICAL FINDINGS
+
+Significant Friedman tests after Holm adjustment:
+69
+
+Significant paired Wilcoxon comparisons after Holm adjustment:
+156
+
+CONCLUSION
+
+The findings suggest that network structure, vaccination
+strategy, vaccination budget, and selection timing all
+deserve consideration when evaluating epidemic interventions.
+
+END OF EXECUTIVE SUMMARY

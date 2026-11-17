@@ -1,0 +1,745 @@
+selection_day,target_day,strategy,budget,n_vaccinated,id
+Day 2,Day 2,Random,0.05,13,1522
+Day 2,Day 2,Random,0.05,13,1549
+Day 2,Day 2,Random,0.05,13,1604
+Day 2,Day 2,Random,0.05,13,1713
+Day 2,Day 2,Random,0.05,13,1880
+Day 2,Day 2,Random,0.05,13,1431
+Day 2,Day 2,Random,0.05,13,1489
+Day 2,Day 2,Random,0.05,13,1580
+Day 2,Day 2,Random,0.05,13,1707
+Day 2,Day 2,Random,0.05,13,1702
+Day 2,Day 2,Random,0.05,13,1435
+Day 2,Day 2,Random,0.05,13,1698
+Day 2,Day 2,Random,0.05,13,1908
+Day 2,Day 2,Degree,0.05,13,1665
+Day 2,Day 2,Degree,0.05,13,1551
+Day 2,Day 2,Degree,0.05,13,1757
+Day 2,Day 2,Degree,0.05,13,1765
+Day 2,Day 2,Degree,0.05,13,1579
+Day 2,Day 2,Degree,0.05,13,1697
+Day 2,Day 2,Degree,0.05,13,1664
+Day 2,Day 2,Degree,0.05,13,1613
+Day 2,Day 2,Degree,0.05,13,1822
+Day 2,Day 2,Degree,0.05,13,1851
+Day 2,Day 2,Degree,0.05,13,1594
+Day 2,Day 2,Degree,0.05,13,1673
+Day 2,Day 2,Degree,0.05,13,1730
+Day 2,Day 2,Weighted Degree,0.05,13,1665
+Day 2,Day 2,Weighted Degree,0.05,13,1697
+Day 2,Day 2,Weighted Degree,0.05,13,1912
+Day 2,Day 2,Weighted Degree,0.05,13,1613
+Day 2,Day 2,Weighted Degree,0.05,13,1695
+Day 2,Day 2,Weighted Degree,0.05,13,1666
+Day 2,Day 2,Weighted Degree,0.05,13,1698
+Day 2,Day 2,Weighted Degree,0.05,13,1675
+Day 2,Day 2,Weighted Degree,0.05,13,1907
+Day 2,Day 2,Weighted Degree,0.05,13,1625
+Day 2,Day 2,Weighted Degree,0.05,13,1911
+Day 2,Day 2,Weighted Degree,0.05,13,1458
+Day 2,Day 2,Weighted Degree,0.05,13,1617
+Day 2,Day 2,Betweenness,0.05,13,1613
+Day 2,Day 2,Betweenness,0.05,13,1695
+Day 2,Day 2,Betweenness,0.05,13,1673
+Day 2,Day 2,Betweenness,0.05,13,1922
+Day 2,Day 2,Betweenness,0.05,13,1765
+Day 2,Day 2,Betweenness,0.05,13,1913
+Day 2,Day 2,Betweenness,0.05,13,1697
+Day 2,Day 2,Betweenness,0.05,13,1664
+Day 2,Day 2,Betweenness,0.05,13,1866
+Day 2,Day 2,Betweenness,0.05,13,1698
+Day 2,Day 2,Betweenness,0.05,13,1666
+Day 2,Day 2,Betweenness,0.05,13,1912
+Day 2,Day 2,Betweenness,0.05,13,1837
+Day 2,Day 2,Community Bridges,0.05,13,1790
+Day 2,Day 2,Community Bridges,0.05,13,1768
+Day 2,Day 2,Community Bridges,0.05,13,1761
+Day 2,Day 2,Community Bridges,0.05,13,1767
+Day 2,Day 2,Community Bridges,0.05,13,1757
+Day 2,Day 2,Community Bridges,0.05,13,1648
+Day 2,Day 2,Community Bridges,0.05,13,1799
+Day 2,Day 2,Community Bridges,0.05,13,1764
+Day 2,Day 2,Community Bridges,0.05,13,1753
+Day 2,Day 2,Community Bridges,0.05,13,1916
+Day 2,Day 2,Community Bridges,0.05,13,1902
+Day 2,Day 2,Community Bridges,0.05,13,1643
+Day 2,Day 2,Community Bridges,0.05,13,1774
+Day 2,Day 2,Within-Community Hubs,0.05,13,1665
+Day 2,Day 2,Within-Community Hubs,0.05,13,1730
+Day 2,Day 2,Within-Community Hubs,0.05,13,1697
+Day 2,Day 2,Within-Community Hubs,0.05,13,1912
+Day 2,Day 2,Within-Community Hubs,0.05,13,1695
+Day 2,Day 2,Within-Community Hubs,0.05,13,1666
+Day 2,Day 2,Within-Community Hubs,0.05,13,1698
+Day 2,Day 2,Within-Community Hubs,0.05,13,1675
+Day 2,Day 2,Within-Community Hubs,0.05,13,1889
+Day 2,Day 2,Within-Community Hubs,0.05,13,1851
+Day 2,Day 2,Within-Community Hubs,0.05,13,1458
+Day 2,Day 2,Within-Community Hubs,0.05,13,1759
+Day 2,Day 2,Within-Community Hubs,0.05,13,1866
+Day 2,Day 2,Random,0.1,25,1486
+Day 2,Day 2,Random,0.1,25,1613
+Day 2,Day 2,Random,0.1,25,1661
+Day 2,Day 2,Random,0.1,25,1426
+Day 2,Day 2,Random,0.1,25,1722
+Day 2,Day 2,Random,0.1,25,1664
+Day 2,Day 2,Random,0.1,25,1807
+Day 2,Day 2,Random,0.1,25,1482
+Day 2,Day 2,Random,0.1,25,1732
+Day 2,Day 2,Random,0.1,25,1502
+Day 2,Day 2,Random,0.1,25,1702
+Day 2,Day 2,Random,0.1,25,1748
+Day 2,Day 2,Random,0.1,25,1908
+Day 2,Day 2,Random,0.1,25,1783
+Day 2,Day 2,Random,0.1,25,1437
+Day 2,Day 2,Random,0.1,25,1674
+Day 2,Day 2,Random,0.1,25,1471
+Day 2,Day 2,Random,0.1,25,1520
+Day 2,Day 2,Random,0.1,25,1574
+Day 2,Day 2,Random,0.1,25,1833
+Day 2,Day 2,Random,0.1,25,1601
+Day 2,Day 2,Random,0.1,25,1666
+Day 2,Day 2,Random,0.1,25,1707
+Day 2,Day 2,Random,0.1,25,1459
+Day 2,Day 2,Random,0.1,25,1919
+Day 2,Day 2,Degree,0.1,25,1665
+Day 2,Day 2,Degree,0.1,25,1551
+Day 2,Day 2,Degree,0.1,25,1757
+Day 2,Day 2,Degree,0.1,25,1765
+Day 2,Day 2,Degree,0.1,25,1579
+Day 2,Day 2,Degree,0.1,25,1697
+Day 2,Day 2,Degree,0.1,25,1664
+Day 2,Day 2,Degree,0.1,25,1613
+Day 2,Day 2,Degree,0.1,25,1822
+Day 2,Day 2,Degree,0.1,25,1851
+Day 2,Day 2,Degree,0.1,25,1594
+Day 2,Day 2,Degree,0.1,25,1673
+Day 2,Day 2,Degree,0.1,25,1730
+Day 2,Day 2,Degree,0.1,25,1768
+Day 2,Day 2,Degree,0.1,25,1790
+Day 2,Day 2,Degree,0.1,25,1912
+Day 2,Day 2,Degree,0.1,25,1887
+Day 2,Day 2,Degree,0.1,25,1552
+Day 2,Day 2,Degree,0.1,25,1666
+Day 2,Day 2,Degree,0.1,25,1907
+Day 2,Day 2,Degree,0.1,25,1675
+Day 2,Day 2,Degree,0.1,25,1780
+Day 2,Day 2,Degree,0.1,25,1890
+Day 2,Day 2,Degree,0.1,25,1628
+Day 2,Day 2,Degree,0.1,25,1695
+Day 2,Day 2,Weighted Degree,0.1,25,1665
+Day 2,Day 2,Weighted Degree,0.1,25,1697
+Day 2,Day 2,Weighted Degree,0.1,25,1912
+Day 2,Day 2,Weighted Degree,0.1,25,1613
+Day 2,Day 2,Weighted Degree,0.1,25,1695
+Day 2,Day 2,Weighted Degree,0.1,25,1666
+Day 2,Day 2,Weighted Degree,0.1,25,1698
+Day 2,Day 2,Weighted Degree,0.1,25,1675
+Day 2,Day 2,Weighted Degree,0.1,25,1907
+Day 2,Day 2,Weighted Degree,0.1,25,1625
+Day 2,Day 2,Weighted Degree,0.1,25,1911
+Day 2,Day 2,Weighted Degree,0.1,25,1458
+Day 2,Day 2,Weighted Degree,0.1,25,1617
+Day 2,Day 2,Weighted Degree,0.1,25,1902
+Day 2,Day 2,Weighted Degree,0.1,25,1851
+Day 2,Day 2,Weighted Degree,0.1,25,1558
+Day 2,Day 2,Weighted Degree,0.1,25,1579
+Day 2,Day 2,Weighted Degree,0.1,25,1663
+Day 2,Day 2,Weighted Degree,0.1,25,1861
+Day 2,Day 2,Weighted Degree,0.1,25,1628
+Day 2,Day 2,Weighted Degree,0.1,25,1719
+Day 2,Day 2,Weighted Degree,0.1,25,1708
+Day 2,Day 2,Weighted Degree,0.1,25,1664
+Day 2,Day 2,Weighted Degree,0.1,25,1706
+Day 2,Day 2,Weighted Degree,0.1,25,1684
+Day 2,Day 2,Betweenness,0.1,25,1613
+Day 2,Day 2,Betweenness,0.1,25,1695
+Day 2,Day 2,Betweenness,0.1,25,1673
+Day 2,Day 2,Betweenness,0.1,25,1922
+Day 2,Day 2,Betweenness,0.1,25,1765
+Day 2,Day 2,Betweenness,0.1,25,1913
+Day 2,Day 2,Betweenness,0.1,25,1697
+Day 2,Day 2,Betweenness,0.1,25,1664
+Day 2,Day 2,Betweenness,0.1,25,1866
+Day 2,Day 2,Betweenness,0.1,25,1698
+Day 2,Day 2,Betweenness,0.1,25,1666
+Day 2,Day 2,Betweenness,0.1,25,1912
+Day 2,Day 2,Betweenness,0.1,25,1837
+Day 2,Day 2,Betweenness,0.1,25,1902
+Day 2,Day 2,Betweenness,0.1,25,1437
+Day 2,Day 2,Betweenness,0.1,25,1745
+Day 2,Day 2,Betweenness,0.1,25,1852
+Day 2,Day 2,Betweenness,0.1,25,1857
+Day 2,Day 2,Betweenness,0.1,25,1718
+Day 2,Day 2,Betweenness,0.1,25,1458
+Day 2,Day 2,Betweenness,0.1,25,1907
+Day 2,Day 2,Betweenness,0.1,25,1665
+Day 2,Day 2,Betweenness,0.1,25,1675
+Day 2,Day 2,Betweenness,0.1,25,1696
+Day 2,Day 2,Betweenness,0.1,25,1533
+Day 2,Day 2,Community Bridges,0.1,25,1790
+Day 2,Day 2,Community Bridges,0.1,25,1768
+Day 2,Day 2,Community Bridges,0.1,25,1761
+Day 2,Day 2,Community Bridges,0.1,25,1767
+Day 2,Day 2,Community Bridges,0.1,25,1757
+Day 2,Day 2,Community Bridges,0.1,25,1648
+Day 2,Day 2,Community Bridges,0.1,25,1799
+Day 2,Day 2,Community Bridges,0.1,25,1764
+Day 2,Day 2,Community Bridges,0.1,25,1753
+Day 2,Day 2,Community Bridges,0.1,25,1916
+Day 2,Day 2,Community Bridges,0.1,25,1902
+Day 2,Day 2,Community Bridges,0.1,25,1643
+Day 2,Day 2,Community Bridges,0.1,25,1774
+Day 2,Day 2,Community Bridges,0.1,25,1778
+Day 2,Day 2,Community Bridges,0.1,25,1783
+Day 2,Day 2,Community Bridges,0.1,25,1759
+Day 2,Day 2,Community Bridges,0.1,25,1613
+Day 2,Day 2,Community Bridges,0.1,25,1798
+Day 2,Day 2,Community Bridges,0.1,25,1889
+Day 2,Day 2,Community Bridges,0.1,25,1752
+Day 2,Day 2,Community Bridges,0.1,25,1711
+Day 2,Day 2,Community Bridges,0.1,25,1628
+Day 2,Day 2,Community Bridges,0.1,25,1887
+Day 2,Day 2,Community Bridges,0.1,25,1911
+Day 2,Day 2,Community Bridges,0.1,25,1796
+Day 2,Day 2,Within-Community Hubs,0.1,25,1665
+Day 2,Day 2,Within-Community Hubs,0.1,25,1730
+Day 2,Day 2,Within-Community Hubs,0.1,25,1697
+Day 2,Day 2,Within-Community Hubs,0.1,25,1912
+Day 2,Day 2,Within-Community Hubs,0.1,25,1695
+Day 2,Day 2,Within-Community Hubs,0.1,25,1666
+Day 2,Day 2,Within-Community Hubs,0.1,25,1698
+Day 2,Day 2,Within-Community Hubs,0.1,25,1675
+Day 2,Day 2,Within-Community Hubs,0.1,25,1889
+Day 2,Day 2,Within-Community Hubs,0.1,25,1851
+Day 2,Day 2,Within-Community Hubs,0.1,25,1458
+Day 2,Day 2,Within-Community Hubs,0.1,25,1759
+Day 2,Day 2,Within-Community Hubs,0.1,25,1866
+Day 2,Day 2,Within-Community Hubs,0.1,25,1861
+Day 2,Day 2,Within-Community Hubs,0.1,25,1617
+Day 2,Day 2,Within-Community Hubs,0.1,25,1663
+Day 2,Day 2,Within-Community Hubs,0.1,25,1708
+Day 2,Day 2,Within-Community Hubs,0.1,25,1751
+Day 2,Day 2,Within-Community Hubs,0.1,25,1706
+Day 2,Day 2,Within-Community Hubs,0.1,25,1783
+Day 2,Day 2,Within-Community Hubs,0.1,25,1890
+Day 2,Day 2,Within-Community Hubs,0.1,25,1558
+Day 2,Day 2,Within-Community Hubs,0.1,25,1664
+Day 2,Day 2,Within-Community Hubs,0.1,25,1579
+Day 2,Day 2,Within-Community Hubs,0.1,25,1618
+Day 2,Day 2,Random,0.15,37,1707
+Day 2,Day 2,Random,0.15,37,1564
+Day 2,Day 2,Random,0.15,37,1815
+Day 2,Day 2,Random,0.15,37,1782
+Day 2,Day 2,Random,0.15,37,1779
+Day 2,Day 2,Random,0.15,37,1890
+Day 2,Day 2,Random,0.15,37,1483
+Day 2,Day 2,Random,0.15,37,1857
+Day 2,Day 2,Random,0.15,37,1493
+Day 2,Day 2,Random,0.15,37,1789
+Day 2,Day 2,Random,0.15,37,1475
+Day 2,Day 2,Random,0.15,37,1745
+Day 2,Day 2,Random,0.15,37,1718
+Day 2,Day 2,Random,0.15,37,1504
+Day 2,Day 2,Random,0.15,37,1778
+Day 2,Day 2,Random,0.15,37,1665
+Day 2,Day 2,Random,0.15,37,1861
+Day 2,Day 2,Random,0.15,37,1570
+Day 2,Day 2,Random,0.15,37,1880
+Day 2,Day 2,Random,0.15,37,1708
+Day 2,Day 2,Random,0.15,37,1653
+Day 2,Day 2,Random,0.15,37,1459
+Day 2,Day 2,Random,0.15,37,1792
+Day 2,Day 2,Random,0.15,37,1824
+Day 2,Day 2,Random,0.15,37,1688
+Day 2,Day 2,Random,0.15,37,1888
+Day 2,Day 2,Random,0.15,37,1831
+Day 2,Day 2,Random,0.15,37,1887
+Day 2,Day 2,Random,0.15,37,1603
+Day 2,Day 2,Random,0.15,37,1648
+Day 2,Day 2,Random,0.15,37,1854
+Day 2,Day 2,Random,0.15,37,1604
+Day 2,Day 2,Random,0.15,37,1917
+Day 2,Day 2,Random,0.15,37,1797
+Day 2,Day 2,Random,0.15,37,1858
+Day 2,Day 2,Random,0.15,37,1579
+Day 2,Day 2,Random,0.15,37,1819
+Day 2,Day 2,Degree,0.15,37,1665
+Day 2,Day 2,Degree,0.15,37,1551
+Day 2,Day 2,Degree,0.15,37,1757
+Day 2,Day 2,Degree,0.15,37,1765
+Day 2,Day 2,Degree,0.15,37,1579
+Day 2,Day 2,Degree,0.15,37,1697
+Day 2,Day 2,Degree,0.15,37,1664
+Day 2,Day 2,Degree,0.15,37,1613
+Day 2,Day 2,Degree,0.15,37,1822
+Day 2,Day 2,Degree,0.15,37,1851
+Day 2,Day 2,Degree,0.15,37,1594
+Day 2,Day 2,Degree,0.15,37,1673
+Day 2,Day 2,Degree,0.15,37,1730
+Day 2,Day 2,Degree,0.15,37,1768
+Day 2,Day 2,Degree,0.15,37,1790
+Day 2,Day 2,Degree,0.15,37,1912
+Day 2,Day 2,Degree,0.15,37,1887
+Day 2,Day 2,Degree,0.15,37,1552
+Day 2,Day 2,Degree,0.15,37,1666
+Day 2,Day 2,Degree,0.15,37,1907
+Day 2,Day 2,Degree,0.15,37,1675
+Day 2,Day 2,Degree,0.15,37,1780
+Day 2,Day 2,Degree,0.15,37,1890
+Day 2,Day 2,Degree,0.15,37,1628
+Day 2,Day 2,Degree,0.15,37,1695
+Day 2,Day 2,Degree,0.15,37,1761
+Day 2,Day 2,Degree,0.15,37,1902
+Day 2,Day 2,Degree,0.15,37,1837
+Day 2,Day 2,Degree,0.15,37,1859
+Day 2,Day 2,Degree,0.15,37,1625
+Day 2,Day 2,Degree,0.15,37,1708
+Day 2,Day 2,Degree,0.15,37,1656
+Day 2,Day 2,Degree,0.15,37,1698
+Day 2,Day 2,Degree,0.15,37,1719
+Day 2,Day 2,Degree,0.15,37,1457
+Day 2,Day 2,Degree,0.15,37,1700
+Day 2,Day 2,Degree,0.15,37,1498
+Day 2,Day 2,Weighted Degree,0.15,37,1665
+Day 2,Day 2,Weighted Degree,0.15,37,1697
+Day 2,Day 2,Weighted Degree,0.15,37,1912
+Day 2,Day 2,Weighted Degree,0.15,37,1613
+Day 2,Day 2,Weighted Degree,0.15,37,1695
+Day 2,Day 2,Weighted Degree,0.15,37,1666
+Day 2,Day 2,Weighted Degree,0.15,37,1698
+Day 2,Day 2,Weighted Degree,0.15,37,1675
+Day 2,Day 2,Weighted Degree,0.15,37,1907
+Day 2,Day 2,Weighted Degree,0.15,37,1625
+Day 2,Day 2,Weighted Degree,0.15,37,1911
+Day 2,Day 2,Weighted Degree,0.15,37,1458
+Day 2,Day 2,Weighted Degree,0.15,37,1617
+Day 2,Day 2,Weighted Degree,0.15,37,1902
+Day 2,Day 2,Weighted Degree,0.15,37,1851
+Day 2,Day 2,Weighted Degree,0.15,37,1558
+Day 2,Day 2,Weighted Degree,0.15,37,1579
+Day 2,Day 2,Weighted Degree,0.15,37,1663
+Day 2,Day 2,Weighted Degree,0.15,37,1861
+Day 2,Day 2,Weighted Degree,0.15,37,1628
+Day 2,Day 2,Weighted Degree,0.15,37,1719
+Day 2,Day 2,Weighted Degree,0.15,37,1708
+Day 2,Day 2,Weighted Degree,0.15,37,1664
+Day 2,Day 2,Weighted Degree,0.15,37,1706
+Day 2,Day 2,Weighted Degree,0.15,37,1684
+Day 2,Day 2,Weighted Degree,0.15,37,1890
+Day 2,Day 2,Weighted Degree,0.15,37,1889
+Day 2,Day 2,Weighted Degree,0.15,37,1718
+Day 2,Day 2,Weighted Degree,0.15,37,1822
+Day 2,Day 2,Weighted Degree,0.15,37,1700
+Day 2,Day 2,Weighted Degree,0.15,37,1833
+Day 2,Day 2,Weighted Degree,0.15,37,1457
+Day 2,Day 2,Weighted Degree,0.15,37,1922
+Day 2,Day 2,Weighted Degree,0.15,37,1749
+Day 2,Day 2,Weighted Degree,0.15,37,1437
+Day 2,Day 2,Weighted Degree,0.15,37,1859
+Day 2,Day 2,Weighted Degree,0.15,37,1696
+Day 2,Day 2,Betweenness,0.15,37,1613
+Day 2,Day 2,Betweenness,0.15,37,1695
+Day 2,Day 2,Betweenness,0.15,37,1673
+Day 2,Day 2,Betweenness,0.15,37,1922
+Day 2,Day 2,Betweenness,0.15,37,1765
+Day 2,Day 2,Betweenness,0.15,37,1913
+Day 2,Day 2,Betweenness,0.15,37,1697
+Day 2,Day 2,Betweenness,0.15,37,1664
+Day 2,Day 2,Betweenness,0.15,37,1866
+Day 2,Day 2,Betweenness,0.15,37,1698
+Day 2,Day 2,Betweenness,0.15,37,1666
+Day 2,Day 2,Betweenness,0.15,37,1912
+Day 2,Day 2,Betweenness,0.15,37,1837
+Day 2,Day 2,Betweenness,0.15,37,1902
+Day 2,Day 2,Betweenness,0.15,37,1437
+Day 2,Day 2,Betweenness,0.15,37,1745
+Day 2,Day 2,Betweenness,0.15,37,1852
+Day 2,Day 2,Betweenness,0.15,37,1857
+Day 2,Day 2,Betweenness,0.15,37,1718
+Day 2,Day 2,Betweenness,0.15,37,1458
+Day 2,Day 2,Betweenness,0.15,37,1907
+Day 2,Day 2,Betweenness,0.15,37,1665
+Day 2,Day 2,Betweenness,0.15,37,1675
+Day 2,Day 2,Betweenness,0.15,37,1696
+Day 2,Day 2,Betweenness,0.15,37,1533
+Day 2,Day 2,Betweenness,0.15,37,1889
+Day 2,Day 2,Betweenness,0.15,37,1563
+Day 2,Day 2,Betweenness,0.15,37,1780
+Day 2,Day 2,Betweenness,0.15,37,1532
+Day 2,Day 2,Betweenness,0.15,37,1502
+Day 2,Day 2,Betweenness,0.15,37,1465
+Day 2,Day 2,Betweenness,0.15,37,1579
+Day 2,Day 2,Betweenness,0.15,37,1887
+Day 2,Day 2,Betweenness,0.15,37,1768
+Day 2,Day 2,Betweenness,0.15,37,1434
+Day 2,Day 2,Betweenness,0.15,37,1617
+Day 2,Day 2,Betweenness,0.15,37,1625
+Day 2,Day 2,Community Bridges,0.15,37,1790
+Day 2,Day 2,Community Bridges,0.15,37,1768
+Day 2,Day 2,Community Bridges,0.15,37,1761
+Day 2,Day 2,Community Bridges,0.15,37,1767
+Day 2,Day 2,Community Bridges,0.15,37,1757
+Day 2,Day 2,Community Bridges,0.15,37,1648
+Day 2,Day 2,Community Bridges,0.15,37,1799
+Day 2,Day 2,Community Bridges,0.15,37,1764
+Day 2,Day 2,Community Bridges,0.15,37,1753
+Day 2,Day 2,Community Bridges,0.15,37,1916
+Day 2,Day 2,Community Bridges,0.15,37,1902
+Day 2,Day 2,Community Bridges,0.15,37,1643
+Day 2,Day 2,Community Bridges,0.15,37,1774
+Day 2,Day 2,Community Bridges,0.15,37,1778
+Day 2,Day 2,Community Bridges,0.15,37,1783
+Day 2,Day 2,Community Bridges,0.15,37,1759
+Day 2,Day 2,Community Bridges,0.15,37,1613
+Day 2,Day 2,Community Bridges,0.15,37,1798
+Day 2,Day 2,Community Bridges,0.15,37,1889
+Day 2,Day 2,Community Bridges,0.15,37,1752
+Day 2,Day 2,Community Bridges,0.15,37,1711
+Day 2,Day 2,Community Bridges,0.15,37,1628
+Day 2,Day 2,Community Bridges,0.15,37,1887
+Day 2,Day 2,Community Bridges,0.15,37,1911
+Day 2,Day 2,Community Bridges,0.15,37,1796
+Day 2,Day 2,Community Bridges,0.15,37,1898
+Day 2,Day 2,Community Bridges,0.15,37,1625
+Day 2,Day 2,Community Bridges,0.15,37,1775
+Day 2,Day 2,Community Bridges,0.15,37,1789
+Day 2,Day 2,Community Bridges,0.15,37,1787
+Day 2,Day 2,Community Bridges,0.15,37,1766
+Day 2,Day 2,Community Bridges,0.15,37,1718
+Day 2,Day 2,Community Bridges,0.15,37,1792
+Day 2,Day 2,Community Bridges,0.15,37,1922
+Day 2,Day 2,Community Bridges,0.15,37,1749
+Day 2,Day 2,Community Bridges,0.15,37,1708
+Day 2,Day 2,Community Bridges,0.15,37,1632
+Day 2,Day 2,Within-Community Hubs,0.15,37,1665
+Day 2,Day 2,Within-Community Hubs,0.15,37,1730
+Day 2,Day 2,Within-Community Hubs,0.15,37,1697
+Day 2,Day 2,Within-Community Hubs,0.15,37,1912
+Day 2,Day 2,Within-Community Hubs,0.15,37,1695
+Day 2,Day 2,Within-Community Hubs,0.15,37,1666
+Day 2,Day 2,Within-Community Hubs,0.15,37,1698
+Day 2,Day 2,Within-Community Hubs,0.15,37,1675
+Day 2,Day 2,Within-Community Hubs,0.15,37,1889
+Day 2,Day 2,Within-Community Hubs,0.15,37,1851
+Day 2,Day 2,Within-Community Hubs,0.15,37,1458
+Day 2,Day 2,Within-Community Hubs,0.15,37,1759
+Day 2,Day 2,Within-Community Hubs,0.15,37,1866
+Day 2,Day 2,Within-Community Hubs,0.15,37,1861
+Day 2,Day 2,Within-Community Hubs,0.15,37,1617
+Day 2,Day 2,Within-Community Hubs,0.15,37,1663
+Day 2,Day 2,Within-Community Hubs,0.15,37,1708
+Day 2,Day 2,Within-Community Hubs,0.15,37,1751
+Day 2,Day 2,Within-Community Hubs,0.15,37,1706
+Day 2,Day 2,Within-Community Hubs,0.15,37,1783
+Day 2,Day 2,Within-Community Hubs,0.15,37,1890
+Day 2,Day 2,Within-Community Hubs,0.15,37,1558
+Day 2,Day 2,Within-Community Hubs,0.15,37,1664
+Day 2,Day 2,Within-Community Hubs,0.15,37,1579
+Day 2,Day 2,Within-Community Hubs,0.15,37,1618
+Day 2,Day 2,Within-Community Hubs,0.15,37,1684
+Day 2,Day 2,Within-Community Hubs,0.15,37,1838
+Day 2,Day 2,Within-Community Hubs,0.15,37,1516
+Day 2,Day 2,Within-Community Hubs,0.15,37,1719
+Day 2,Day 2,Within-Community Hubs,0.15,37,1457
+Day 2,Day 2,Within-Community Hubs,0.15,37,1437
+Day 2,Day 2,Within-Community Hubs,0.15,37,1887
+Day 2,Day 2,Within-Community Hubs,0.15,37,1696
+Day 2,Day 2,Within-Community Hubs,0.15,37,1668
+Day 2,Day 2,Within-Community Hubs,0.15,37,1922
+Day 2,Day 2,Within-Community Hubs,0.15,37,1688
+Day 2,Day 2,Within-Community Hubs,0.15,37,1822
+Day 2,Day 2,Random,0.2,49,1637
+Day 2,Day 2,Random,0.2,49,1551
+Day 2,Day 2,Random,0.2,49,1847
+Day 2,Day 2,Random,0.2,49,1429
+Day 2,Day 2,Random,0.2,49,1675
+Day 2,Day 2,Random,0.2,49,1783
+Day 2,Day 2,Random,0.2,49,1630
+Day 2,Day 2,Random,0.2,49,1673
+Day 2,Day 2,Random,0.2,49,1525
+Day 2,Day 2,Random,0.2,49,1753
+Day 2,Day 2,Random,0.2,49,1616
+Day 2,Day 2,Random,0.2,49,1650
+Day 2,Day 2,Random,0.2,49,1764
+Day 2,Day 2,Random,0.2,49,1427
+Day 2,Day 2,Random,0.2,49,1741
+Day 2,Day 2,Random,0.2,49,1761
+Day 2,Day 2,Random,0.2,49,1601
+Day 2,Day 2,Random,0.2,49,1789
+Day 2,Day 2,Random,0.2,49,1592
+Day 2,Day 2,Random,0.2,49,1661
+Day 2,Day 2,Random,0.2,49,1815
+Day 2,Day 2,Random,0.2,49,1459
+Day 2,Day 2,Random,0.2,49,1451
+Day 2,Day 2,Random,0.2,49,1471
+Day 2,Day 2,Random,0.2,49,1750
+Day 2,Day 2,Random,0.2,49,1711
+Day 2,Day 2,Random,0.2,49,1643
+Day 2,Day 2,Random,0.2,49,1696
+Day 2,Day 2,Random,0.2,49,1519
+Day 2,Day 2,Random,0.2,49,1486
+Day 2,Day 2,Random,0.2,49,1609
+Day 2,Day 2,Random,0.2,49,1738
+Day 2,Day 2,Random,0.2,49,1768
+Day 2,Day 2,Random,0.2,49,1567
+Day 2,Day 2,Random,0.2,49,1800
+Day 2,Day 2,Random,0.2,49,1495
+Day 2,Day 2,Random,0.2,49,1743
+Day 2,Day 2,Random,0.2,49,1770
+Day 2,Day 2,Random,0.2,49,1906
+Day 2,Day 2,Random,0.2,49,1502
+Day 2,Day 2,Random,0.2,49,1779
+Day 2,Day 2,Random,0.2,49,1819
+Day 2,Day 2,Random,0.2,49,1719
+Day 2,Day 2,Random,0.2,49,1574
+Day 2,Day 2,Random,0.2,49,1723
+Day 2,Day 2,Random,0.2,49,1851
+Day 2,Day 2,Random,0.2,49,1653
+Day 2,Day 2,Random,0.2,49,1503
+Day 2,Day 2,Random,0.2,49,1664
+Day 2,Day 2,Degree,0.2,49,1665
+Day 2,Day 2,Degree,0.2,49,1551
+Day 2,Day 2,Degree,0.2,49,1757
+Day 2,Day 2,Degree,0.2,49,1765
+Day 2,Day 2,Degree,0.2,49,1579
+Day 2,Day 2,Degree,0.2,49,1697
+Day 2,Day 2,Degree,0.2,49,1664
+Day 2,Day 2,Degree,0.2,49,1613
+Day 2,Day 2,Degree,0.2,49,1822
+Day 2,Day 2,Degree,0.2,49,1851
+Day 2,Day 2,Degree,0.2,49,1594
+Day 2,Day 2,Degree,0.2,49,1673
+Day 2,Day 2,Degree,0.2,49,1730
+Day 2,Day 2,Degree,0.2,49,1768
+Day 2,Day 2,Degree,0.2,49,1790
+Day 2,Day 2,Degree,0.2,49,1912
+Day 2,Day 2,Degree,0.2,49,1887
+Day 2,Day 2,Degree,0.2,49,1552
+Day 2,Day 2,Degree,0.2,49,1666
+Day 2,Day 2,Degree,0.2,49,1907
+Day 2,Day 2,Degree,0.2,49,1675
+Day 2,Day 2,Degree,0.2,49,1780
+Day 2,Day 2,Degree,0.2,49,1890
+Day 2,Day 2,Degree,0.2,49,1628
+Day 2,Day 2,Degree,0.2,49,1695
+Day 2,Day 2,Degree,0.2,49,1761
+Day 2,Day 2,Degree,0.2,49,1902
+Day 2,Day 2,Degree,0.2,49,1837
+Day 2,Day 2,Degree,0.2,49,1859
+Day 2,Day 2,Degree,0.2,49,1625
+Day 2,Day 2,Degree,0.2,49,1708
+Day 2,Day 2,Degree,0.2,49,1656
+Day 2,Day 2,Degree,0.2,49,1698
+Day 2,Day 2,Degree,0.2,49,1719
+Day 2,Day 2,Degree,0.2,49,1457
+Day 2,Day 2,Degree,0.2,49,1700
+Day 2,Day 2,Degree,0.2,49,1498
+Day 2,Day 2,Degree,0.2,49,1564
+Day 2,Day 2,Degree,0.2,49,1843
+Day 2,Day 2,Degree,0.2,49,1558
+Day 2,Day 2,Degree,0.2,49,1833
+Day 2,Day 2,Degree,0.2,49,1916
+Day 2,Day 2,Degree,0.2,49,1684
+Day 2,Day 2,Degree,0.2,49,1443
+Day 2,Day 2,Degree,0.2,49,1704
+Day 2,Day 2,Degree,0.2,49,1751
+Day 2,Day 2,Degree,0.2,49,1458
+Day 2,Day 2,Degree,0.2,49,1503
+Day 2,Day 2,Degree,0.2,49,1866
+Day 2,Day 2,Weighted Degree,0.2,49,1665
+Day 2,Day 2,Weighted Degree,0.2,49,1697
+Day 2,Day 2,Weighted Degree,0.2,49,1912
+Day 2,Day 2,Weighted Degree,0.2,49,1613
+Day 2,Day 2,Weighted Degree,0.2,49,1695
+Day 2,Day 2,Weighted Degree,0.2,49,1666
+Day 2,Day 2,Weighted Degree,0.2,49,1698
+Day 2,Day 2,Weighted Degree,0.2,49,1675
+Day 2,Day 2,Weighted Degree,0.2,49,1907
+Day 2,Day 2,Weighted Degree,0.2,49,1625
+Day 2,Day 2,Weighted Degree,0.2,49,1911
+Day 2,Day 2,Weighted Degree,0.2,49,1458
+Day 2,Day 2,Weighted Degree,0.2,49,1617
+Day 2,Day 2,Weighted Degree,0.2,49,1902
+Day 2,Day 2,Weighted Degree,0.2,49,1851
+Day 2,Day 2,Weighted Degree,0.2,49,1558
+Day 2,Day 2,Weighted Degree,0.2,49,1579
+Day 2,Day 2,Weighted Degree,0.2,49,1663
+Day 2,Day 2,Weighted Degree,0.2,49,1861
+Day 2,Day 2,Weighted Degree,0.2,49,1628
+Day 2,Day 2,Weighted Degree,0.2,49,1719
+Day 2,Day 2,Weighted Degree,0.2,49,1708
+Day 2,Day 2,Weighted Degree,0.2,49,1664
+Day 2,Day 2,Weighted Degree,0.2,49,1706
+Day 2,Day 2,Weighted Degree,0.2,49,1684
+Day 2,Day 2,Weighted Degree,0.2,49,1890
+Day 2,Day 2,Weighted Degree,0.2,49,1889
+Day 2,Day 2,Weighted Degree,0.2,49,1718
+Day 2,Day 2,Weighted Degree,0.2,49,1822
+Day 2,Day 2,Weighted Degree,0.2,49,1700
+Day 2,Day 2,Weighted Degree,0.2,49,1833
+Day 2,Day 2,Weighted Degree,0.2,49,1457
+Day 2,Day 2,Weighted Degree,0.2,49,1922
+Day 2,Day 2,Weighted Degree,0.2,49,1749
+Day 2,Day 2,Weighted Degree,0.2,49,1437
+Day 2,Day 2,Weighted Degree,0.2,49,1859
+Day 2,Day 2,Weighted Degree,0.2,49,1696
+Day 2,Day 2,Weighted Degree,0.2,49,1887
+Day 2,Day 2,Weighted Degree,0.2,49,1688
+Day 2,Day 2,Weighted Degree,0.2,49,1563
+Day 2,Day 2,Weighted Degree,0.2,49,1765
+Day 2,Day 2,Weighted Degree,0.2,49,1780
+Day 2,Day 2,Weighted Degree,0.2,49,1916
+Day 2,Day 2,Weighted Degree,0.2,49,1641
+Day 2,Day 2,Weighted Degree,0.2,49,1594
+Day 2,Day 2,Weighted Degree,0.2,49,1551
+Day 2,Day 2,Weighted Degree,0.2,49,1452
+Day 2,Day 2,Weighted Degree,0.2,49,1843
+Day 2,Day 2,Weighted Degree,0.2,49,1685
+Day 2,Day 2,Betweenness,0.2,49,1613
+Day 2,Day 2,Betweenness,0.2,49,1695
+Day 2,Day 2,Betweenness,0.2,49,1673
+Day 2,Day 2,Betweenness,0.2,49,1922
+Day 2,Day 2,Betweenness,0.2,49,1765
+Day 2,Day 2,Betweenness,0.2,49,1913
+Day 2,Day 2,Betweenness,0.2,49,1697
+Day 2,Day 2,Betweenness,0.2,49,1664
+Day 2,Day 2,Betweenness,0.2,49,1866
+Day 2,Day 2,Betweenness,0.2,49,1698
+Day 2,Day 2,Betweenness,0.2,49,1666
+Day 2,Day 2,Betweenness,0.2,49,1912
+Day 2,Day 2,Betweenness,0.2,49,1837
+Day 2,Day 2,Betweenness,0.2,49,1902
+Day 2,Day 2,Betweenness,0.2,49,1437
+Day 2,Day 2,Betweenness,0.2,49,1745
+Day 2,Day 2,Betweenness,0.2,49,1852
+Day 2,Day 2,Betweenness,0.2,49,1857
+Day 2,Day 2,Betweenness,0.2,49,1718
+Day 2,Day 2,Betweenness,0.2,49,1458
+Day 2,Day 2,Betweenness,0.2,49,1907
+Day 2,Day 2,Betweenness,0.2,49,1665
+Day 2,Day 2,Betweenness,0.2,49,1675
+Day 2,Day 2,Betweenness,0.2,49,1696
+Day 2,Day 2,Betweenness,0.2,49,1533
+Day 2,Day 2,Betweenness,0.2,49,1889
+Day 2,Day 2,Betweenness,0.2,49,1563
+Day 2,Day 2,Betweenness,0.2,49,1780
+Day 2,Day 2,Betweenness,0.2,49,1532
+Day 2,Day 2,Betweenness,0.2,49,1502
+Day 2,Day 2,Betweenness,0.2,49,1465
+Day 2,Day 2,Betweenness,0.2,49,1579
+Day 2,Day 2,Betweenness,0.2,49,1887
+Day 2,Day 2,Betweenness,0.2,49,1768
+Day 2,Day 2,Betweenness,0.2,49,1434
+Day 2,Day 2,Betweenness,0.2,49,1617
+Day 2,Day 2,Betweenness,0.2,49,1625
+Day 2,Day 2,Betweenness,0.2,49,1656
+Day 2,Day 2,Betweenness,0.2,49,1767
+Day 2,Day 2,Betweenness,0.2,49,1628
+Day 2,Day 2,Betweenness,0.2,49,1757
+Day 2,Day 2,Betweenness,0.2,49,1700
+Day 2,Day 2,Betweenness,0.2,49,1911
+Day 2,Day 2,Betweenness,0.2,49,1838
+Day 2,Day 2,Betweenness,0.2,49,1545
+Day 2,Day 2,Betweenness,0.2,49,1895
+Day 2,Day 2,Betweenness,0.2,49,1681
+Day 2,Day 2,Betweenness,0.2,49,1572
+Day 2,Day 2,Betweenness,0.2,49,1898
+Day 2,Day 2,Community Bridges,0.2,49,1790
+Day 2,Day 2,Community Bridges,0.2,49,1768
+Day 2,Day 2,Community Bridges,0.2,49,1761
+Day 2,Day 2,Community Bridges,0.2,49,1767
+Day 2,Day 2,Community Bridges,0.2,49,1757
+Day 2,Day 2,Community Bridges,0.2,49,1648
+Day 2,Day 2,Community Bridges,0.2,49,1799
+Day 2,Day 2,Community Bridges,0.2,49,1764
+Day 2,Day 2,Community Bridges,0.2,49,1753
+Day 2,Day 2,Community Bridges,0.2,49,1916
+Day 2,Day 2,Community Bridges,0.2,49,1902
+Day 2,Day 2,Community Bridges,0.2,49,1643
+Day 2,Day 2,Community Bridges,0.2,49,1774
+Day 2,Day 2,Community Bridges,0.2,49,1778
+Day 2,Day 2,Community Bridges,0.2,49,1783
+Day 2,Day 2,Community Bridges,0.2,49,1759
+Day 2,Day 2,Community Bridges,0.2,49,1613
+Day 2,Day 2,Community Bridges,0.2,49,1798
+Day 2,Day 2,Community Bridges,0.2,49,1889
+Day 2,Day 2,Community Bridges,0.2,49,1752
+Day 2,Day 2,Community Bridges,0.2,49,1711
+Day 2,Day 2,Community Bridges,0.2,49,1628
+Day 2,Day 2,Community Bridges,0.2,49,1887
+Day 2,Day 2,Community Bridges,0.2,49,1911
+Day 2,Day 2,Community Bridges,0.2,49,1796
+Day 2,Day 2,Community Bridges,0.2,49,1898
+Day 2,Day 2,Community Bridges,0.2,49,1625
+Day 2,Day 2,Community Bridges,0.2,49,1775
+Day 2,Day 2,Community Bridges,0.2,49,1789
+Day 2,Day 2,Community Bridges,0.2,49,1787
+Day 2,Day 2,Community Bridges,0.2,49,1766
+Day 2,Day 2,Community Bridges,0.2,49,1718
+Day 2,Day 2,Community Bridges,0.2,49,1792
+Day 2,Day 2,Community Bridges,0.2,49,1922
+Day 2,Day 2,Community Bridges,0.2,49,1749
+Day 2,Day 2,Community Bridges,0.2,49,1708
+Day 2,Day 2,Community Bridges,0.2,49,1632
+Day 2,Day 2,Community Bridges,0.2,49,1772
+Day 2,Day 2,Community Bridges,0.2,49,1890
+Day 2,Day 2,Community Bridges,0.2,49,1732
+Day 2,Day 2,Community Bridges,0.2,49,1851
+Day 2,Day 2,Community Bridges,0.2,49,1704
+Day 2,Day 2,Community Bridges,0.2,49,1852
+Day 2,Day 2,Community Bridges,0.2,49,1815
+Day 2,Day 2,Community Bridges,0.2,49,1858
+Day 2,Day 2,Community Bridges,0.2,49,1855
+Day 2,Day 2,Community Bridges,0.2,49,1861
+Day 2,Day 2,Community Bridges,0.2,49,1579
+Day 2,Day 2,Community Bridges,0.2,49,1641
+Day 2,Day 2,Within-Community Hubs,0.2,49,1665
+Day 2,Day 2,Within-Community Hubs,0.2,49,1730
+Day 2,Day 2,Within-Community Hubs,0.2,49,1697
+Day 2,Day 2,Within-Community Hubs,0.2,49,1912
+Day 2,Day 2,Within-Community Hubs,0.2,49,1695
+Day 2,Day 2,Within-Community Hubs,0.2,49,1666
+Day 2,Day 2,Within-Community Hubs,0.2,49,1698
+Day 2,Day 2,Within-Community Hubs,0.2,49,1675
+Day 2,Day 2,Within-Community Hubs,0.2,49,1889
+Day 2,Day 2,Within-Community Hubs,0.2,49,1851
+Day 2,Day 2,Within-Community Hubs,0.2,49,1458
+Day 2,Day 2,Within-Community Hubs,0.2,49,1759
+Day 2,Day 2,Within-Community Hubs,0.2,49,1866
+Day 2,Day 2,Within-Community Hubs,0.2,49,1861
+Day 2,Day 2,Within-Community Hubs,0.2,49,1617
+Day 2,Day 2,Within-Community Hubs,0.2,49,1663
+Day 2,Day 2,Within-Community Hubs,0.2,49,1708
+Day 2,Day 2,Within-Community Hubs,0.2,49,1751
+Day 2,Day 2,Within-Community Hubs,0.2,49,1706
+Day 2,Day 2,Within-Community Hubs,0.2,49,1783
+Day 2,Day 2,Within-Community Hubs,0.2,49,1890
+Day 2,Day 2,Within-Community Hubs,0.2,49,1558
+Day 2,Day 2,Within-Community Hubs,0.2,49,1664
+Day 2,Day 2,Within-Community Hubs,0.2,49,1579
+Day 2,Day 2,Within-Community Hubs,0.2,49,1618
+Day 2,Day 2,Within-Community Hubs,0.2,49,1684
+Day 2,Day 2,Within-Community Hubs,0.2,49,1838
+Day 2,Day 2,Within-Community Hubs,0.2,49,1516
+Day 2,Day 2,Within-Community Hubs,0.2,49,1719
+Day 2,Day 2,Within-Community Hubs,0.2,49,1457
+Day 2,Day 2,Within-Community Hubs,0.2,49,1437
+Day 2,Day 2,Within-Community Hubs,0.2,49,1887
+Day 2,Day 2,Within-Community Hubs,0.2,49,1696
+Day 2,Day 2,Within-Community Hubs,0.2,49,1668
+Day 2,Day 2,Within-Community Hubs,0.2,49,1922
+Day 2,Day 2,Within-Community Hubs,0.2,49,1688
+Day 2,Day 2,Within-Community Hubs,0.2,49,1822
+Day 2,Day 2,Within-Community Hubs,0.2,49,1700
+Day 2,Day 2,Within-Community Hubs,0.2,49,1833
+Day 2,Day 2,Within-Community Hubs,0.2,49,1563
+Day 2,Day 2,Within-Community Hubs,0.2,49,1765
+Day 2,Day 2,Within-Community Hubs,0.2,49,1757
+Day 2,Day 2,Within-Community Hubs,0.2,49,1859
+Day 2,Day 2,Within-Community Hubs,0.2,49,1452
+Day 2,Day 2,Within-Community Hubs,0.2,49,1908
+Day 2,Day 2,Within-Community Hubs,0.2,49,1768
+Day 2,Day 2,Within-Community Hubs,0.2,49,1613
+Day 2,Day 2,Within-Community Hubs,0.2,49,1465
+Day 2,Day 2,Within-Community Hubs,0.2,49,1780

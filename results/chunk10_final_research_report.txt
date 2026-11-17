@@ -1,0 +1,58 @@
+STAT 636 FINAL RESEARCH RESULTS
+=================================================================
+
+1. DATASET
+Total simulations: 32000
+Network models: 4
+Vaccination strategies: 5
+
+2. OVERALL MODEL PERFORMANCE
+        model  simulations  mean_final_size  sd_final_size  median_final_size  mean_peak_infected  sd_peak_infected  mean_generations
+Configuration         8000        53.603500      61.025169                5.0            9.615250         10.851875          7.562625
+        DCSBM         8000        63.585625      66.613550               10.0           12.305250         13.111924          7.583500
+           ER         8000        78.357625      71.992337              102.0           13.184375         12.470929          9.616875
+    Empirical         8000        51.660875      59.173958                7.0            8.870875          9.705848          7.746375
+
+3. STATISTICAL TESTING
+Friedman tests: 80
+Significant Friedman tests: 69
+Wilcoxon tests: 240
+Significant Wilcoxon tests: 156
+
+4. BEST VACCINATION STRATEGIES
+        model selection_timing         strategy  vaccination_budget  simulations  mean_final_size  median_final_size  mean_peak_infected  mean_final_proportion  mean_peak_proportion
+Configuration     Previous_Day           Degree                0.05          200           80.325              124.0              14.700               0.331921              0.060744
+Configuration     Previous_Day Community_Bridge                0.10          200           59.455                5.0              10.660               0.245682              0.044050
+Configuration     Previous_Day           Degree                0.15          200           36.885                2.0               6.305               0.152417              0.026054
+Configuration     Previous_Day           Degree                0.20          200           23.230                2.0               4.060               0.095992              0.016777
+Configuration         Same_Day           Degree                0.05          200           69.775               99.5              12.290               0.288326              0.050785
+Configuration         Same_Day  Weighted_Degree                0.10          200           30.770                2.0               5.295               0.127149              0.021880
+Configuration         Same_Day  Weighted_Degree                0.15          200           16.700                2.0               3.080               0.069008              0.012727
+Configuration         Same_Day  Weighted_Degree                0.20          200            6.145                1.0               1.675               0.025393              0.006921
+        DCSBM     Previous_Day  Weighted_Degree                0.05          200           90.475              143.0              18.360               0.373864              0.075868
+        DCSBM     Previous_Day           Degree                0.10          200           71.680              117.0              13.760               0.296198              0.056860
+        DCSBM     Previous_Day           Degree                0.15          200           52.615                4.0               9.250               0.217417              0.038223
+        DCSBM     Previous_Day           Degree                0.20          200           33.080                2.0               5.955               0.136694              0.024607
+        DCSBM         Same_Day  Weighted_Degree                0.05          200           74.810              106.0              13.785               0.309132              0.056963
+        DCSBM         Same_Day  Weighted_Degree                0.10          200           44.265                3.0               7.230               0.182913              0.029876
+        DCSBM         Same_Day  Weighted_Degree                0.15          200           21.765                2.0               3.875               0.089938              0.016012
+        DCSBM         Same_Day  Weighted_Degree                0.20          200            7.275                1.0               1.800               0.030062              0.007438
+           ER     Previous_Day           Degree                0.05          200          109.495              154.5              19.360               0.452459              0.080000
+           ER     Previous_Day  Weighted_Degree                0.10          200           84.890              132.0              14.520               0.350785              0.060000
+           ER     Previous_Day      Betweenness                0.15          200           68.770               98.0              11.360               0.284174              0.046942
+           ER     Previous_Day  Weighted_Degree                0.20          200           46.760                3.0               7.190               0.193223              0.029711
+           ER         Same_Day      Betweenness                0.05          200          101.545              149.0              16.715               0.419607              0.069070
+           ER         Same_Day  Weighted_Degree                0.10          200           69.600               86.5              11.030               0.287603              0.045579
+           ER         Same_Day  Weighted_Degree                0.15          200           41.935                5.0               6.405               0.173285              0.026467
+           ER         Same_Day  Weighted_Degree                0.20          200           18.710                2.0               3.430               0.077314              0.014174
+    Empirical     Previous_Day  Weighted_Degree                0.05          200           77.400              111.0              13.400               0.319835              0.055372
+    Empirical     Previous_Day           Degree                0.10          200           46.850                7.0               7.360               0.193595              0.030413
+    Empirical     Previous_Day           Degree                0.15          200           30.970                3.0               5.165               0.127975              0.021343
+    Empirical     Previous_Day           Degree                0.20          200           19.570                2.0               3.625               0.080868              0.014979
+    Empirical         Same_Day  Weighted_Degree                0.05          200           63.365               49.0              10.695               0.261839              0.044194
+    Empirical         Same_Day  Weighted_Degree                0.10          200           35.160                3.0               5.545               0.145289              0.022913
+    Empirical         Same_Day           Degree                0.15          200           15.410                2.0               3.030               0.063678              0.012521
+    Empirical         Same_Day  Weighted_Degree                0.20          200            5.885                2.0               1.720               0.024318              0.007107
+
+5. INTERPRETATION
+Results describe the simulated outcomes under the specified network and SIR assumptions. Statistical significance does not establish causality or guarantee real-world effectiveness. Effect sizes, uncertainty intervals, and network-model assumptions should be considered when interpreting findings.
